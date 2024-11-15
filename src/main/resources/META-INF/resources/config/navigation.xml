@@ -8,26 +8,36 @@
     <label xml:lang="de">MIR-Menü</label>
     <label xml:lang="en">MIR menu</label>
     <item href="/content/index.xml" type="intern">
-      <label xml:lang="de">Start</label>
-      <label xml:lang="en">Start</label>
-    </item>
-    <item href="/content/brand/impressum.xml" type="intern">
-      <label xml:lang="de">Impressum</label>
-      <label xml:lang="en">Impressum</label>
-    </item>
-    <item href="/content/brand/contact.xml" type="intern">
-      <label xml:lang="de">Kontakt</label>
-      <label xml:lang="en">Contact</label>
+      <label xml:lang="de">Startseite</label>
+      <label xml:lang="en">Home</label>
     </item>
   </menu>
   <menu id="below" dir="/content/below">
     <label xml:lang="de">Footer-Menü</label>
     <label xml:lang="en">Footer menu</label>
+    <!--
+    <item href="https://www.jade-hs.de/unsere-hochschule/wir-stellen-uns-vor/studienorte/" type="extern">
+      <label xml:lang="de">Studienorte</label>
+      <label xml:lang="en">Locations</label>
+    </item>
+    -->
+    <item href="/content/below/imprint.xml" type="intern">
+      <label xml:lang="de">Impressum</label>
+      <label xml:lang="en">Imprint</label>
+    </item>
+    <item href="/content/below/accessibility.xml" type="intern">
+      <label xml:lang="de">Barrierefreieheit</label>
+      <label xml:lang="en">Accessibility</label>
+    </item>
+    <item href="/content/below/rights.xml" type="intern">
+      <label xml:lang="de">Datenschutzerklärung</label>
+      <label xml:lang="en">Privacy</label>
+    </item>
   </menu>
   <menu id="search">
     <!-- search menu  -->
-    <label xml:lang="de">Suche</label>
-    <label xml:lang="en">Search</label>
+    <label xml:lang="de">Recherche</label>
+    <label xml:lang="en">Research</label>
     <item href="/content/search/simple.xed" type="intern">
       <label xml:lang="de">einfach</label>
       <label xml:lang="en">simple</label>
@@ -51,7 +61,7 @@
   </menu>
   <menu id="browse">
   <!-- search menu  -->
-    <label xml:lang="de">Blättern</label>
+    <label xml:lang="de">Sammlungen</label>
     <label xml:lang="en">Browse</label>
     <item href="/content/browse/institutes.xml" type="intern">
       <label xml:lang="de">Einrichtungen</label>
@@ -71,7 +81,7 @@
     </item>
   </menu>
   <menu id="publish" dir="/content/publish">
-    <label xml:lang="de">Dokumente einreichen</label>
+    <label xml:lang="de">Publizieren</label>
     <label xml:lang="en">Submit Document</label>
     <item href="/servlets/MCRActionMappingServlet/mods/create" type="intern">
       <label xml:lang="de">Publizieren</label>

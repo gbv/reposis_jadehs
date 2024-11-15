@@ -6,6 +6,71 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  .project-social-nav {
+    background-color: $jRot;
+    padding: 0 .25rem;
+    a {
+      font-size: 1.75rem;
+      margin-left: .25rem;
+      margin-right: .25rem;
+      color: white;
+      &:hover {
+        color: $jGrau;
+      }
+    }
+  }
+
+  .mir-prop-nav .navbar-nav > li > a {
+    color: $white;
+    font-size: 1rem;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    &:hover,
+    &:focus {
+      color: $jGrau;
+    }
+  }
+
+  .mir-prop-nav {
+    background-color: $jRot;
+    padding: 0 .25rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .internal_links {
+    display: flex;
+    flex-direction: column;
+    a {
+      color: $jRot;
+      &:hover {
+        color: $jGrau;
+      }
+    }
+    .dropdown-item {
+      display: inline;
+      padding: 0;
+      width: auto;
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .mir-main-nav {
+    .navbar {
+      padding: 0;
+    }
+    &__entries {
+      .navbar-nav {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+    .nav-link {
+      font-size: 1.25rem;
+    }
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

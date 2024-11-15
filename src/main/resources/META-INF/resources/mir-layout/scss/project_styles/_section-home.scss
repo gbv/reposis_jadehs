@@ -6,7 +6,18 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-
+  .project-title-box {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: max-content;
+    h1 {
+      text-align: center;
+      letter-spacing: 0.5rem;
+      span {
+        color: $jGrau90;
+      }
+    }
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

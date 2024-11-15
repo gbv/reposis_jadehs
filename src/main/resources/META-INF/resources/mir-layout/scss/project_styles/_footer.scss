@@ -6,6 +6,25 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  .flatmir-footer {
+    color: $body-color;
+    background-color: white;
+    border-top: 10px solid $secondary;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 50px;
+    padding-top: 1rem;
+    .project-copyright {
+      margin-top: 1rem;
+      color: $jRot;
+    }
+    h4 {
+      color: $body-color;
+    }
+  }
+  #powered_by {
+    margin-top: 3rem;
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {

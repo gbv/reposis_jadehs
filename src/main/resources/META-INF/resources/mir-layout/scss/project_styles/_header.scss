@@ -8,6 +8,20 @@
 
 // logo and menu container
 
+  .project_topnav_box {
+    display: flex;
+    justify-content: space-between;
+    .project-social-nav {}
+    .mir-prop-nav {}
+  }
+  .project_logo_box {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    img {
+      width: 252px;
+    }
+  }
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
