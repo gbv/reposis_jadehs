@@ -6,6 +6,12 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  .mir-start_page {
+    .searchfield-entry {
+      display: none;
+    }
+  }
+
   .project-title-box {
     margin-top: 2rem;
     margin-bottom: 3rem;

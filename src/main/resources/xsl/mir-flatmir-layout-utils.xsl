@@ -49,6 +49,7 @@
         <div class="mir-prop-nav">
           <nav>
             <ul class="navbar-nav ml-auto flex-row">
+              <xsl:call-template name="mir.searchbar" />
               <xsl:call-template name="mir.loginMenu" />
               <xsl:call-template name="mir.languageMenu" />
             </ul>
@@ -114,8 +115,8 @@
             Friedrich-Paffrath-Straße 101<br/>
             26389 Wilhelmshaven<br/>
             <br/>
-            Tel. +49 4421 985-0<br/>
-            Fax +49 4421 985-2304
+            Tel. <span class="text-primary">+49 4421 985-0</span><br/>
+            Fax <span class="text-primary"> +49 4421 985-2304</span>
           </p>
         </div>
         <div class="col-3">
@@ -172,6 +173,38 @@
           </xsl:otherwise>
         </xsl:choose>
       </a>
+    </li>
+  </xsl:template>
+
+  <xsl:template name="mir.searchbar">
+    <li class="searchfield-entry">
+      <div class="searchfield_box">
+        <form
+          id="bs-searchHeader"
+          action="{$WebApplicationBaseURL}servlets/solr/find"
+          class="bs-search form-inline"
+          role="search">
+          <div class="js-searchbar">
+            <button type="submit" class="btn pnt-primary text-white">
+              <i class="fas fa-search search-button__icon"></i>
+            </button>
+            <input
+              id="searchbar"
+              name="condQuery"
+              placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+              class="form-control form-control-sm search-query"
+              type="text" />
+            <xsl:choose>
+              <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+                <input name="owner" type="hidden" value="createdby:*" />
+              </xsl:when>
+              <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+                <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
+              </xsl:when>
+            </xsl:choose>
+          </div>
+        </form>
+      </div>
     </li>
   </xsl:template>
 
