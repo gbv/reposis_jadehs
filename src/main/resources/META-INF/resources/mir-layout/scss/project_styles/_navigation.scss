@@ -15,7 +15,8 @@
       margin-right: .25rem;
       color: white;
       &:hover {
-        color: $jGrau;
+        //color: $jGrau;
+        color: white;
       }
     }
   }
@@ -27,7 +28,8 @@
     margin-right: .25rem;
     &:hover,
     &:focus {
-      color: $jGrau;
+      //color: $jGrau;
+      color: white;
     }
   }
 
@@ -44,7 +46,8 @@
     a {
       color: $jRot;
       &:hover {
-        color: $jGrau;
+        //color: $jGrau;
+        color: white;
       }
     }
     .dropdown-item {

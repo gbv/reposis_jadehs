@@ -2,3 +2,9 @@
  * - add the needed fonts here
  */
 
+ @font-face {
+  font-family: 'Exo2local';
+  src: url('#{$assetPathRoot}fonts/Exo2.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
