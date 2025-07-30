@@ -6,6 +6,26 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
+  .logo-octopus {
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .logo-column {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    a {
+      width: 100%;
+      text-align: right;
+    }
+    img {
+      width: 60%;
+    }
+  }
+
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
   // add/overwrite styles for responsive level lg and lower

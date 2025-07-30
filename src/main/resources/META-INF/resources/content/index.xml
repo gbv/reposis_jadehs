@@ -6,9 +6,15 @@
     <div class="jumbotwo"></div>
 
     <div class="project-title-box">
-      <h1>OKTO<span>PUS</span></h1>
-      <h2>Dokumentenserver der Jade Hochschule</h2>
+      <h1 class="sr-only">OKTO<span>PUS</span></h1>
+      <h2 class="sr-only">Dokumentenserver der Jade Hochschule</h2>
     </div>
+
+    <img
+      class="logo-octopus"
+      aria-hidden="true"
+      src="../images/Logo_Dokumentenserver_JadeHochschule.svg"
+      alt="oktoPUS - Dokumentenserver der Jade Hochschule" />
 
     <form
       action="../servlets/solr/findPublic"

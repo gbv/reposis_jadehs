@@ -22,13 +22,17 @@
       <label xml:lang="de">Impressum</label>
       <label xml:lang="en">Imprint</label>
     </item>
-    <item href="/content/below/accessibility.xml" type="intern">
-      <label xml:lang="de">Barrierefreieheit</label>
-      <label xml:lang="en">Accessibility</label>
+    <item href="/content/below/contact.xml" type="intern">
+      <label xml:lang="de">Kontakt</label>
+      <label xml:lang="en">Contact</label>
     </item>
     <item href="/content/below/rights.xml" type="intern">
       <label xml:lang="de">Datenschutzerklärung</label>
       <label xml:lang="en">Privacy</label>
+    </item>
+      <item href="/content/below/accessibility.xml" type="intern">
+      <label xml:lang="de">Barrierefreieheit</label>
+      <label xml:lang="en">Accessibility</label>
     </item>
   </menu>
 

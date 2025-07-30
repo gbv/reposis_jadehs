@@ -107,32 +107,43 @@
   <xsl:template name="mir.footer">
     <div class="container">
       <div class="row">
-        <div class="col-3">
-          <h4>Kontakt</h4>
-          <p>
-            Jade Hochschule<br/>
-            Wilhelmshaven/Oldenburg/Elsfleth<br/>
-            Friedrich-Paffrath-Straße 101<br/>
-            26389 Wilhelmshaven<br/>
-            <br/>
-            Tel. <span class="text-primary">+49 4421 985-0</span><br/>
-            Fax <span class="text-primary"> +49 4421 985-2304</span>
-          </p>
-        </div>
-        <div class="col-3">
-          <h4>Links</h4>
-          <ul class="internal_links">
-            <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
-          </ul>
-        </div>
-        <div class="col-6">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="project-copyright">
-            ©2024 Jade Hochschule Wilhelmshaven | Oldenburg | Elsfleth
+        <div class="col-7 mt-3">
+          <div class="row">
+            <div class="col-6">
+              <h4 class="sr-only">Kontakt</h4>
+              <p>
+                Jade Hochschule<br/>
+                Wilhelmshaven/Oldenburg/Elsfleth<br/>
+                Friedrich-Paffrath-Straße 101<br/>
+                26389 Wilhelmshaven<br/>
+                <br/>
+                Tel. <span class="text-primary">+49 4421 985-0</span><br/>
+                Fax <span class="text-primary"> +49 4421 985-2304</span>
+              </p>
+            </div>
+            <div class="col-6">
+              <h4 class="sr-only">Links</h4>
+              <ul class="internal_links">
+                <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='below']/*" />
+              </ul>
+            </div>
           </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="project-copyright">
+                ©2025 Jade Hochschule Wilhelmshaven | Oldenburg | Elsfleth
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 logo-column">
+          <a
+            href="{$WebApplicationBaseURL}"
+            title="Zur Startseite">
+            <img
+              src="{$WebApplicationBaseURL}images/Logo_Dokumentenserver_JadeHochschule.svg"
+              alt="" />
+          </a>
         </div>
       </div>
     </div>
