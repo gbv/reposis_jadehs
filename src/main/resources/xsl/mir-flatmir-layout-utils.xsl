@@ -96,6 +96,9 @@
         </nav>
       </div>
     </div>
+    <div id="project_feedback">
+      <a href="mailto:info@example.de">Schreiben Sie uns</a>
+    </div>
   </xsl:template>
 
   <xsl:template name="mir.jumbotwo">
