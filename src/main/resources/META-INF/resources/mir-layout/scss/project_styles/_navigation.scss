@@ -46,8 +46,8 @@
     a {
       color: $jRot;
       &:hover {
-        //color: $jGrau;
-        color: white;
+        color: $jRot;
+        text-decoration: underline;
       }
     }
     .dropdown-item {
