@@ -11,7 +11,7 @@
     </div>
 
     <form
-      action="../servlets/solr/findPublic"
+      action="../servlets/solr/find"
       id="project-searchMainPage"
       class="form-inline d-flex justify-content-center mt-5"
       role="search">
