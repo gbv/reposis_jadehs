@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:i18n="xalan://org.mycore.services.i18n.MCRTranslation"
-    xmlns:mcrver="xalan://org.mycore.common.MCRCoreVersion"
-    xmlns:mcrxsl="xalan://org.mycore.common.xml.MCRXMLFunctions"
-    exclude-result-prefixes="i18n mcrver mcrxsl">
+  xmlns:date="http://exslt.org/dates-and-times"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  exclude-result-prefixes="date">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
 
-  <xsl:template name="mir.navigation">
+  <xsl:variable name="checkAdmin" select="document('userobjectrights:isCurrentUserInRole:admin')/boolean='true'"/>
+  <xsl:variable name="checkEditor" select="document('userobjectrights:isCurrentUserInRole:editor')/boolean='true'"/>
 
+  <xsl:template name="mir.navigation">
     <div class="container">
       <div class="project_topnav_box">
         <div class="project-social-nav">
@@ -58,9 +58,7 @@
       </div>
       <div class="project_logo_box">
         <a title="zur Jade Hochschule" href="https://www.jade-hs.de/">
-          <img
-            src="{$WebApplicationBaseURL}images/Logo_JadeHochschule.jpg"
-            alt="Logo Jade Hochschule" />
+          <img src="{$WebApplicationBaseURL}images/Logo_JadeHochschule.jpg" alt="Logo Jade Hochschule" />
         </a>
       </div>
     </div>
@@ -69,7 +67,6 @@
     <div class="mir-main-nav bg-secondary">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-
           <button
             class="navbar-toggler"
             type="button"
@@ -80,11 +77,10 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div class="collapse navbar-collapse mir-main-nav__entries">
             <ul class="navbar-nav">
               <xsl:call-template name="project.generate_single_menu_entry">
-                <xsl:with-param name="menuID" select="'brand'"/>
+                <xsl:with-param name="menuID" select="'brand'" />
               </xsl:call-template>
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='search']" />
               <xsl:apply-templates select="$loaded_navigation_xml/menu[@id='browse']" />
@@ -92,7 +88,6 @@
               <xsl:call-template name="mir.basketMenu" />
             </ul>
           </div>
-
         </nav>
       </div>
     </div>
@@ -103,8 +98,7 @@
 
   <xsl:template name="mir.jumbotwo">
     <!-- show only on startpage -->
-    <xsl:if test="//div/@class='jumbotwo'">
-    </xsl:if>
+    <xsl:if test="//div/@class='jumbotwo'"></xsl:if>
   </xsl:template>
 
   <xsl:template name="mir.footer">
@@ -115,12 +109,16 @@
             <div class="col-6">
               <h4 class="sr-only">Kontakt</h4>
               <p>
-                Jade Hochschule<br/>
-                Wilhelmshaven/Oldenburg/Elsfleth<br/>
-                Friedrich-Paffrath-Straße 101<br/>
+                Jade Hochschule
+                <br />
+                Wilhelmshaven/Oldenburg/Elsfleth
+                <br />
+                Friedrich-Paffrath-Straße 101
+                <br />
                 26389 Wilhelmshaven<br/>
-                <br/>
-                Tel. <span class="text-primary">+49 4421 985-0</span><br/>
+                <br />
+                Tel. <span class="text-primary">+49 4421 985-0</span>
+                <br />
                 Fax <span class="text-primary"> +49 4421 985-2304</span>
               </p>
             </div>
@@ -134,7 +132,8 @@
           <div class="row">
             <div class="col-12">
               <div class="project-copyright">
-                ©2025 Jade Hochschule Wilhelmshaven | Oldenburg | Elsfleth
+                <xsl:value-of select="concat('©', date:year(date:date()))" />
+                Jade Hochschule Wilhelmshaven | Oldenburg | Elsfleth
               </div>
             </div>
           </div>
@@ -153,48 +152,21 @@
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
-    <xsl:variable name="mcr_version" select="concat('MyCoRe ',mcrver:getCompleteVersion())" />
+    <xsl:variable name="mcr_version" select="document('version:full')/version/text()" />
     <div id="powered_by">
-      <a href="http://www.mycore.de">
-        <img src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png" title="{$mcr_version}" alt="powered by MyCoRe" />
+      <a href="https://www.mycore.de">
+        <img
+          src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png"
+          title="{$mcr_version}"
+          alt="powered by MyCoRe" />
       </a>
     </div>
-  </xsl:template>
-
-  <xsl:template name="project.generate_single_menu_entry">
-    <xsl:param name="menuID" />
-
-    <xsl:variable name="activeClass">
-      <xsl:choose>
-        <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item[@href = $browserAddress ]">
-        <xsl:text>active</xsl:text>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:text>not-active</xsl:text>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-
-    <li class="nav-item {$activeClass}">
-
-      <a id="{$menuID}" href="{$WebApplicationBaseURL}{$loaded_navigation_xml/menu[@id=$menuID]/item/@href}" class="nav-link" >
-        <xsl:choose>
-          <xsl:when test="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)] != ''">
-            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($CurrentLang)]" />
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$loaded_navigation_xml/menu[@id=$menuID]/item/label[lang($DefaultLang)]" />
-          </xsl:otherwise>
-        </xsl:choose>
-      </a>
-    </li>
   </xsl:template>
 
   <xsl:template name="mir.searchbar">
     <li class="searchfield-entry">
       <div class="searchfield_box">
-        <form
-          id="bs-searchHeader"
+        <form id="bs-searchHeader"
           action="{$WebApplicationBaseURL}servlets/solr/find"
           class="bs-search form-inline"
           role="search">
@@ -205,14 +177,14 @@
             <input
               id="searchbar"
               name="condQuery"
-              placeholder="{i18n:translate('mir.navsearch.placeholder')}"
+              placeholder="{document('i18n:mir.navsearch.placeholder')/i18n/text()}"
               class="form-control form-control-sm search-query"
               type="text" />
             <xsl:choose>
-              <xsl:when test="mcrxsl:isCurrentUserInRole('admin') or mcrxsl:isCurrentUserInRole('editor')">
+              <xsl:when test="$checkAdmin or $checkEditor">
                 <input name="owner" type="hidden" value="createdby:*" />
               </xsl:when>
-              <xsl:when test="not(mcrxsl:isCurrentUserGuestUser())">
+              <xsl:when test="not($CurrentUser='guest')">
                 <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
               </xsl:when>
             </xsl:choose>
@@ -220,6 +192,64 @@
         </form>
       </div>
     </li>
+  </xsl:template>
+
+  <xsl:template name="project.generate_single_menu_entry">
+    <xsl:param name="menuID" />
+    <xsl:variable name="menu-item" select="$loaded_navigation_xml/menu[@id=$menuID]/item" />
+    <xsl:variable name="active-class">
+      <xsl:choose>
+        <xsl:when test="$menu-item/@href = $browserAddress">
+          <xsl:text>active</xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>not-active</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <li class="nav-item {$active-class}">
+      <xsl:variable name="full-url">
+        <xsl:call-template name="resolve-full-url">
+          <xsl:with-param name="link" select="$menu-item/@href" />
+        </xsl:call-template>
+      </xsl:variable>
+      <a id="{$menuID}" href="{$full-url}" class="nav-link">
+        <xsl:apply-templates select="$menu-item" mode="linkText" />
+      </a>
+    </li>
+  </xsl:template>
+
+  <xsl:template name="resolve-full-url">
+    <xsl:param name="link" />
+    <xsl:param name="base-url" select="$WebApplicationBaseURL" />
+    <xsl:choose>
+      <xsl:when test="starts-with($link,'http:')
+                      or starts-with($link,'https:')
+                      or starts-with($link,'mailto:')
+                      or starts-with($link,'ftp:')">
+        <xsl:value-of select="$link" />
+      </xsl:when>
+      <xsl:when test="starts-with($link,'/')">
+        <xsl:choose>
+          <xsl:when test="substring($base-url, string-length($base-url), 1) = '/'">
+            <xsl:value-of select="concat(substring($base-url, 1, string-length($base-url) - 1), $link)" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="concat($base-url, $link)" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:choose>
+          <xsl:when test="substring($base-url, string-length($base-url), 1) = '/'">
+            <xsl:value-of select="concat($base-url, $link)" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="concat($base-url, '/', $link)" />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
 </xsl:stylesheet>

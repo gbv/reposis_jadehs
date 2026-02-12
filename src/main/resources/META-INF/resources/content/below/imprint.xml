@@ -1,24 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-    <section xml:lang="de" title="Impressum">
-        <div class="row">
-            <div class="col-md-12" lang="de">
-                <h1>Impressum</h1>
-                <p>
-                    Die nachstehenden Informationen enthalten die gesetzlich vorgesehenen Pflichtangaben zur
-                    Anbieterkennzeichnung, sowie wichtige rechtliche Hinweise zur Internetpräsenz der ...
-                </p>
-
-                <h2>Anbieter</h2>
-                <p>
-                    Anbieter dieser Internetpräsenz ist im Rechtssinne ...
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <meta>
-        <log date="2020-10-22" time="18:09" labelPath=" » Admin" lastEditor="Kathleen Neumann"/>
-    </meta>
+  <section xml:lang="de" title="Impressum">
+    <h2>Impressum</h2>
+    <p>
+      <strong>Anbieterangaben gemäß § 5 TMG</strong>
+    </p>
+    <p />
+    <p>
+      <strong>Jade Hochschule (Hauptanschrift)</strong>
+    </p>
+    <div>Wilhelmshaven/Oldenburg/Elsfleth</div>
+    <div>Friedrich-Paffrath-Str. 101</div>
+    <div>26389 Wilhelmshaven</div>
+    <div>Telefon: 04421-985-0</div>
+    <div>Telefax: 04421-985-2304</div>
+    <p />
+    <div>
+      <strong>Campus Oldenburg</strong>
+    </div>
+    <div>Ofener Str. 16/19</div>
+    <div>26121 Oldenburg</div>
+    <div>Telefon: 0441-7708-0</div>
+    <div>Telefax: 0441-7708-3100</div>
+    <p />
+    <div>
+      <strong>Campus Elsfleth</strong>
+    </div>
+    <div>Westerstr. 52</div>
+    <div>26931 Elsfleth</div>
+    <div>Telefon: 04404-9288-4110</div>
+    <div>Telefax: 04404-9288-4141</div>
+    <div />
+    <div>Internet:
+      <a href="https://www.jade-hs.de">https://www.jade-hs.de</a>
+    </div>
+    <p />
+    <p />
+    <div>Die Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth ist eine Körperschaft des öffentlichen Rechts. Sie wird
+      gesetzlich vertreten durch den
+      Präsidenten <a href="https://www.jade-hs.de/team-info/suche/?user=4374" title="https://www.jade-hs.de/team-info/suche/?user=4374">
+        Prof. Dr.-Ing. Manfred Weisensee</a>. 
+    </div>
+    <p />
+    <div>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE 265902596</div>
+    <div>Steuernummer: 70/200/01026</div>
+    <p />
+    <div>
+      <strong>Zuständige Aufsichtsbehörde</strong>
+    </div>
+    <div>Niedersächsisches Ministerium für Wissenschaft und Kultur</div>
+    <div>Leibnizufer 9</div>
+    <div>30169 Hannover</div>
+    <p />
+    <div>
+      <strong>Verantwortlich i.S.d.P. / § 18 Abs. 2 MStV</strong>
+    </div>
+    <div>Die Seiten <a href="https://www.oktopus.jade-hs.de">www.oktopus.jade-hs.de</a> werden durch das Team Zentrale
+      Digitale Services der Hochschulbibliothek betreut.
+    </div>
+    <div>Kontakt: <a href="mailto:publikationen-bib@jade-hs.de">publikationen-bib@jade-hs.de</a> 
+    </div>
+    <p />
+    <div>
+      <strong>Technischer Betrieb</strong>
+    </div>
+    <div>Verbundzentrale des GBV (VZG)</div>
+    <div>Platz der Göttinger Sieben 1</div>
+    <div>37073 Göttingen</div>
+  </section>
+  <meta>
+    <log lastEditor="cboss" date="2026-01-20" time="10:29" />
+  </meta>
 </MyCoReWebPage>

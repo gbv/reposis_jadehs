@@ -1,56 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-
-  <section title="oktoPUS - Dokumentenserver der Jade Hochschule" xml:lang="de">
+  <section xml:lang="de" title="oktoPUS - Dokumentenserver der Jade Hochschule">
     <div class="jumbotwo"></div>
-
     <div class="project-title-box">
       <h1 class="sr-only">OKTO<span>PUS</span></h1>
       <h2 class="sr-only">Dokumentenserver der Jade Hochschule</h2>
     </div>
-
     <img
       class="logo-octopus"
       aria-hidden="true"
       src="../images/Logo_Dokumentenserver_JadeHochschule.svg"
       alt="oktoPUS - Dokumentenserver der Jade Hochschule" />
-
-    <form
-      action="../servlets/solr/findPublic"
-      id="project-searchMainPage"
-      class="form-inline d-flex justify-content-center mt-5"
-      role="search">
-      <div class="input-group input-group-lg">
-        <input
-          name="condQuery"
-          placeholder="Suche in 160 Dokumenten"
-          class="form-control search-query"
-          id="project-searchInput"
-          type="text" />
-        <div class="input-group-append">
-          <button type="submit" class="btn btn-primary">
-            <i class="fa fa-search"></i>
-          </button>
-        </div>
-      </div>
-    </form>
-    <script src="../js/jquery.number.js"></script>
-    <script>
-      $( document ).ready(function() {
-        $.ajax({
-          type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-          dataType: "jsonp",
-          success: function (data) {
-            $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
-          },
-        });
-      });
-    </script>
+    <index-search-form />
+    <script src="../js/index.js"></script>
   </section>
-
   <meta>
-    <log date="2015-05-22" time="11:12" labelPath=" » Start" lastEditor="Kathleen Neumann" />
+    <log lastEditor="cboss" date="2026-02-11" time="16:20" />
   </meta>
 </MyCoReWebPage>

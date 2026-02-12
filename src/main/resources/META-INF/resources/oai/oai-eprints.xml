@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <eprints
+    xmlns="http://www.openarchives.org/OAI/1.1/eprints"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.openarchives.org/OAI/1.1/eprints http://www.openarchives.org/OAI/1.1/eprints.xsd">
+    <content>
+      <text>
+        oktoPUS is the institutional repository of Jade University Wilhelmshaven/Oldenburg/Elsfleth.
+        It provides all members of the university with the organizational and technical framework for timely
+        electronic publication and storage of research results in accordance with Open Access principles.
+        Its goals are fast worldwide availability, archiving, and permanent citability of publications.
+      </text>
+      <URL>https://oktopus.jade-hs.de/</URL>
+    </content>
+    <metadataPolicy>
+      <text>
+        All bibliographic metadata provided via this interface, except abstracts, is hereby made available under CC0
+        license, free to share and re-use.
+      </text>
+      <URL>https://creativecommons.org/publicdomain/zero/1.0/deed.de</URL>
+    </metadataPolicy>
+    <dataPolicy>
+      <text>
+        The publications and electronic documents provided here must be used according to copyright laws, all rights
+        reserved if not otherwise explicitly specified.
+      </text>
+      <URL>https://oktopus.jade-hs.de/content/publish/terms_of_use.xml</URL>
+    </dataPolicy>
+    <submissionPolicy>
+      <text>
+        This repository is intended for Open Access publications.
+        Members of Jade University can submit publications in accepted file formats, such as theses, research
+        reports, or presentation slides.
+        Submissions are checked by the University Library and published upon consent.
+      </text>
+      <URL>https://oktopus.jade-hs.de/content/publish/policy.xml</URL>
+    </submissionPolicy>
+    <comment>
+      This institutional repository is powered by the MyCoRe repository software, see https://www.mycore.org/ for
+      more information.
+    </comment>
+  </eprints>
+</description>

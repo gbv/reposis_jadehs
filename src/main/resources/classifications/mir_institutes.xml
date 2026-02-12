@@ -1,234 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="mir_institutes">
-	<label xml:lang="en" text="Sample Institutions" description="A list of institutions" />
-	<label xml:lang="de" text="Beispiel-Einrichtungen" description="Liste der Einrichtungen" />
-	<label xml:lang="x-uri" text="http://www.mycore.org/classifications/mir_institutes" />
-	<categories>
-		<category ID="FB">
-			<label xml:lang="de" text="Fachbereiche der Jade Hochschule" />
-			<label xml:lang="en" text="Departments of the Jade University" />
-			<category ID="FB.Arc">
-				<label xml:lang="de" text="Fachbereich Architektur" />
-				<label xml:lang="en" text="Department Architecture" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/" />
-			</category>
-			<category ID="FB.BGG">
-				<label xml:lang="de"
-					text="Fachbereich Bauwesen Geoinformation Gesundheitstechnologie" />
-				<label xml:lang="en"
-					text="Department Civil Engineering, Geoinformation, Health Technology" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bgg/" />
-			</category>
-			<category ID="FB.ING">
-				<label xml:lang="de" text="Fachbereich Ingenieurwissenschaften" />
-				<label xml:lang="en" text="Department Engineering Sciences" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/ingenieurwissenschaften/" />
-			</category>
-			<category ID="FB.MIT">
-				<label xml:lang="de" text="Fachbereich Management, Information, Technologie" />
-				<label xml:lang="en" text="Department Management, Information, Technology" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/mit/" />
-			</category>
-			<category ID="FB.SuL">
-				<label xml:lang="de" text="Fachbereich Seefahrt und Logistik" />
-				<label xml:lang="en" text="Department Maritime and Logistic Studies" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/seefahrt-und-logistik/" />
-			</category>
-			<category ID="FB.WuG">
-				<label xml:lang="de" text="Fachbereich Wirtschaft und Gesellschaft" />
-				<label xml:lang="en" text="Department of Business and Society" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/wirtschaft/" />
-			</category>
-			<category ID="FB.BGG.Div">
-				<label xml:lang="de"
-					text="Abteilungen des Fachbereichs Bauwesen Geoinformation Gesundheitstechnologie" />
-				<label xml:lang="en"
-					text="Divisions of the Department Civil Engineering, Geoinformation, Health Technology" />
-			</category>
-			<category ID="FB.BGG.Bau">
-				<label xml:lang="de" text="Abteilung Bauwesen" />
-				<label xml:lang="en" text="Division Civil Engineering" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/bauwesen/" />
-			</category>
-			<category ID="FB.BGG.Geo">
-				<label xml:lang="de" text="Abteilung Geoinformation" />
-				<label xml:lang="en" text="Division Geoinformation" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bgg/geoinformation/" />
-			</category>
-			<category ID="FB.BGG.TGM">
-				<label xml:lang="de" text="Abteilung Technik und Gesundheit für Menschen" />
-				<label xml:lang="en" text="Division Technik und Gesundheit für Menschen" />
-				<url xlink:type="locator" xlink:href="https://www.jade-hs.de/?id=12657" />
-			</category>
-		</category>
-		<category ID="Institut">
-			<label xml:lang="de" text="Institute der Jade Hochschule" />
-			<label xml:lang="en" text="Instituts of the Jade University" />
-			<category ID="Institut.DCI">
-				<label xml:lang="de"
-					text="Deutsch-Chinesisches Institut für nachhaltiges Planen und Bauen (DCI)" />
-				<label xml:lang="en"
-					text="German-Chinese Institute for Sustainable Engineering and Construction (DCI)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/bauwesen/institute/dci-green-building/" />
-			</category>
-			<category ID="Institut.IAPG">
-				<label xml:lang="de"
-					text="Institut für Angewandte Photogrammetrie und Geoinformatik (IAPG)" />
-				<label xml:lang="en"
-					text="Institute for Applied Photogrammetry and Geoinformatics (IAPG)" />
-				<url xlink:type="locator" xlink:href="http://iapg.jade-hs.de/" />
-			</category>
-			<category ID="Institut.IASO">
-				<label xml:lang="de" text="Institut für Architektur und Städtebau Oldenburg (IASO)" />
-				<label xml:lang="en" text="Institut für Architektur und Städtebau Oldenburg (IASO)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/iaso/" />
-			</category>
-			<category ID="Institut.inbi">
-				<label xml:lang="de" text="Institut für Bau- und Immobilienwirtschaft (inbi)" />
-				<label xml:lang="en" text="Institute for Building and Real Estate Economics (inbi)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/bauwesen/institute/inbi/" />
-			</category>
-			<category ID="Institut.IBM">
-				<label xml:lang="de" text="Institut für Baumanagement (IBM)" />
-				<label xml:lang="en" text="Institut für Baumanagement (IBM)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/ibm/" />
-			</category>
-			<category ID="Institut.IDoK">
-				<label xml:lang="de" text="Institut für Datenbankorientiertes Konstruieren (IDoK)" />
-				<label xml:lang="en" text="Institute for Database-Oriented Engineering (IDoK)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/bauwesen/institute/idok/" />
-			</category>
-			<category ID="Institut.EV">
-				<label xml:lang="de" text="Institut für Energie- und Verfahrenstechnik (EV)" />
-				<label xml:lang="en" text="Institut für Energie- und Verfahrenstechnik (EV)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/forschung/forschungsprofil/institute/ev/" />
-			</category>
-			<category ID="Institut.IHA">
-				<label xml:lang="de" text="Institut für Hörtechnik und Audiologie (IHA)" />
-				<label xml:lang="en" text="Institute of Hearing Technology and Audiology (IHA)" />
-				<url xlink:type="locator" xlink:href="https://tgm.jade-hs.de/iha/" />
-			</category>
-			<category ID="Institut.IVKT">
-				<label xml:lang="de"
-					text="Institut für Informationsverarbeitung in der Kunststofftechnik (IVKT)" />
-				<label xml:lang="en"
-					text="Institut für Informationsverarbeitung in der Kunststofftechnik (IVKT)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/forschung/forschungsprofil/institute/ivkt-institut-fuer-informationsverarbeitung-in-der-kunststofftechnik/" />
-			</category>
-			<category ID="Institut.ILU">
-				<label xml:lang="de" text="Institut für innovative Logistik und Umwelt (ILU)" />
-				<label xml:lang="en" text="Institute for Innovative Logistics and Environment (ILU)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/seefahrt-und-logistik/forschung-praxis/institute/ilu-institut-fuer-innovative-logistik-und-umwelt/" />
-			</category>
-			<category ID="Institut.ITF">
-				<label xml:lang="de"
-					text="Institut für innovative Tourismus- und Freizeitwirtschaft" />
-				<label xml:lang="en"
-					text="Institut für innovative Tourismus- und Freizeitwirtschaft" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/wirtschaft/forschung-und-praxis/institute/itf/" />
-			</category>
-			<category ID="Institut.IGD">
-				<label xml:lang="de"
-					text="Institut für Intermediale Gestaltung und Darstellung (IGD)" />
-				<label xml:lang="en"
-					text="Institut für Intermediale Gestaltung und Darstellung (IGD)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/igd/" />
-			</category>
-			<category ID="Institut.IKP">
-				<label xml:lang="de" text="Institut für Konstruktion und Produktion (IKP)" />
-				<label xml:lang="en" text="Institut für Konstruktion und Produktion (IKP)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/igd/" />
-			</category>
-			<category ID="Institut.IMS">
-				<label xml:lang="de" text="Institut für Maritime Studien (IMS)" />
-				<label xml:lang="en" text="Institute for Maritime Studies (IMS)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/seefahrt-und-logistik/forschung-praxis/institute/ims-institut-fuer-maritime-studien/" />
-			</category>
-			<category ID="Institut.IfM">
-				<label xml:lang="de" text="Institut für Materialprüfung (IfM)" />
-				<label xml:lang="en" text="Institute for Materials Testing (IfM)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bgg/bauwesen/institute/ifm/" />
-			</category>
-			<category ID="Institut.InMWJ">
-				<label xml:lang="de" text="Institut für Medienwirtschaft und Journalismus (InMWJ)" />
-				<label xml:lang="en" text="Institute for Media Management and Journalism (InMWJ)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/mit/mit-forschung-und-praxis/mit-institute/inmwj/" />
-			</category>
-			<category ID="Institut.IMA">
-				<label xml:lang="de" text="Institut für Mess- und Auswertetechnik (IMA)" />
-				<label xml:lang="en" text="Institut für Mess- und Auswertetechnik (IMA)" />
-				<url xlink:type="locator" xlink:href="https://www.jade-hs.de/?id=2584" />
-			</category>
-			<category ID="Institut.INAU">
-				<label xml:lang="de"
-					text="Institut für Nachhaltige Architektur und Umweltplanung (INAU)" />
-				<label xml:lang="en"
-					text="Institut für Nachhaltige Architektur und Umweltplanung (INAU)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/inau/" />
-			</category>
-			<category ID="Institut.InEV">
-				<label xml:lang="de" text="Institut für nachhaltige Energieversorgung (InEV)" />
-				<label xml:lang="en" text="Institute of Sustainable Energy Supply (InEV)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/mit/mit-forschung-und-praxis/mit-institute/inev-institut-fuer-nachhaltige-energieversorgung/" />
-			</category>
-			<category ID="Institut.iro">
-				<label xml:lang="de" text="Institut für Rohrleitungsbau (iro)" />
-				<label xml:lang="en" text="Institute for Pipeline Construction (iro)" />
-				<url xlink:type="locator" xlink:href="https://www.iro-online.de/" />
-			</category>
-			<category ID="Institut.IRT">
-				<label xml:lang="de" text="Institut für Rohrleitungstechnologie (IRT)" />
-				<label xml:lang="en" text="Institute for Pipe Technology (IRT)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/forschung/forschungsprofil/institute/institut-fuer-rohrleitungstechnologie/" />
-			</category>
-			<category ID="Institut.ITAS">
-				<label xml:lang="de" text="Institut für Technische Assistenzsysteme (ITAS)" />
-				<label xml:lang="en" text="Institute for Technical Assistive Systems (ITAS)" />
-				<url xlink:type="locator" xlink:href="https://tgm.jade-hs.de/itas/" />
-			</category>
-			<category ID="Institut.IfW">
-				<label xml:lang="de" text="Institut für Wirtschaftsinformatik (IfW)" />
-				<label xml:lang="en" text="Information Systems Institute (IfW)" />
-				<url xlink:type="locator"
-					xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/mit/mit-forschung-und-praxis/mit-institute/ifw/" />
-			</category>
-			<category ID="Institut.IPD">
-				<label xml:lang="de"
-					text="Jade Institut für Produktions- und Dienstleistungssysteme (IPD)" />
-				<label xml:lang="en" text="Jade Institute for Production and Service Systems (IPD)" />
-				<url xlink:type="locator" xlink:href="https://www.jade-hs.de/ipd" />
-			</category>
-		</category>
-		<category ID="Other">
-			<label xml:lang="de" text="Andere" />
-			<label xml:lang="en" text="Other" />
-		</category>
-	</categories>
+<mycoreclass ID="mir_institutes"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
+  <label xml:lang="de" text="Einrichtungen" description="Liste der Einrichtungen" />
+  <label xml:lang="en" text="Institutions" description="A list of institutions" />
+  <label xml:lang="x-uri" text="https://oktopus.jade-hs.de/api/v2/classifications/mir_institutes" />
+  <categories>
+    <category ID="FB">
+      <label xml:lang="de" text="Fachbereiche der Jade Hochschule" />
+      <label xml:lang="en" text="Departments of the Jade University" />
+      <category ID="FB.Arc">
+        <label xml:lang="de" text="Fachbereich Architektur" />
+        <label xml:lang="en" text="Department Architecture" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/" />
+      </category>
+      <category ID="FB.BGG">
+        <label xml:lang="de" text="Fachbereich Bauwesen Geoinformation Gesundheitstechnologie" />
+        <label xml:lang="en" text="Department Civil Engineering, Geoinformation, Health Technology" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bgg/" />
+      </category>
+      <category ID="FB.ING">
+        <label xml:lang="de" text="Fachbereich Ingenieurwissenschaften" />
+        <label xml:lang="en" text="Department Engineering Sciences" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/ingenieurwissenschaften/" />
+      </category>
+      <category ID="FB.MIT">
+        <label xml:lang="de" text="Fachbereich Management, Information, Technologie" />
+        <label xml:lang="en" text="Department Management, Information, Technology" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/mit/" />
+      </category>
+      <category ID="FB.SuL">
+        <label xml:lang="de" text="Fachbereich Seefahrt und Logistik" />
+        <label xml:lang="en" text="Department Maritime and Logistic Studies" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/seefahrt-und-logistik/" />
+      </category>
+      <category ID="FB.WuG">
+        <label xml:lang="de" text="Fachbereich Wirtschaft und Gesellschaft" />
+        <label xml:lang="en" text="Department of Business and Society" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/wirtschaft/" />
+      </category>
+      <category ID="FB.BGG.Div">
+        <label xml:lang="de" text="Abteilungen des Fachbereichs Bauwesen Geoinformation Gesundheitstechnologie" />
+        <label xml:lang="en" text="Divisions of the Department Civil Engineering, Geoinformation, Health Technology" />
+      </category>
+      <category ID="FB.BGG.Bau">
+        <label xml:lang="de" text="Abteilung Bauwesen" />
+        <label xml:lang="en" text="Division Civil Engineering" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/bauwesen/" />
+      </category>
+      <category ID="FB.BGG.Geo">
+        <label xml:lang="de" text="Abteilung Geoinformation" />
+        <label xml:lang="en" text="Division Geoinformation" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bgg/geoinformation/" />
+      </category>
+      <category ID="FB.BGG.TGM">
+        <label xml:lang="de" text="Abteilung Technik und Gesundheit für Menschen" />
+        <label xml:lang="en" text="Division Technik und Gesundheit für Menschen" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/?id=12657" />
+      </category>
+    </category>
+    <category ID="Institut">
+      <label xml:lang="de" text="Institute der Jade Hochschule" />
+      <label xml:lang="en" text="Instituts of the Jade University" />
+      <category ID="Institut.DCI">
+        <label xml:lang="de" text="Deutsch-Chinesisches Institut für nachhaltiges Planen und Bauen (DCI)" />
+        <label xml:lang="en" text="German-Chinese Institute for Sustainable Engineering and Construction (DCI)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/bauwesen/institute/dci-green-building/" />
+      </category>
+      <category ID="Institut.IAPG">
+        <label xml:lang="de" text="Institut für Angewandte Photogrammetrie und Geoinformatik (IAPG)" />
+        <label xml:lang="en" text="Institute for Applied Photogrammetry and Geoinformatics (IAPG)" />
+        <url xlink:type="locator" xlink:href="http://iapg.jade-hs.de/" />
+      </category>
+      <category ID="Institut.IASO">
+        <label xml:lang="de" text="Institut für Architektur und Städtebau Oldenburg (IASO)" />
+        <label xml:lang="en" text="Institut für Architektur und Städtebau Oldenburg (IASO)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/iaso/" />
+      </category>
+      <category ID="Institut.inbi">
+        <label xml:lang="de" text="Institut für Bau- und Immobilienwirtschaft (inbi)" />
+        <label xml:lang="en" text="Institute for Building and Real Estate Economics (inbi)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/bauwesen/institute/inbi/" />
+      </category>
+      <category ID="Institut.IBM">
+        <label xml:lang="de" text="Institut für Baumanagement (IBM)" />
+        <label xml:lang="en" text="Institut für Baumanagement (IBM)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/ibm/" />
+      </category>
+      <category ID="Institut.IDoK">
+        <label xml:lang="de" text="Institut für Datenbankorientiertes Konstruieren (IDoK)" />
+        <label xml:lang="en" text="Institute for Database-Oriented Engineering (IDoK)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bauwesen-geoinformation-gesundheitstechnologie/bauwesen/institute/idok/" />
+      </category>
+      <category ID="Institut.EV">
+        <label xml:lang="de" text="Institut für Energie- und Verfahrenstechnik (EV)" />
+        <label xml:lang="en" text="Institut für Energie- und Verfahrenstechnik (EV)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/forschung/forschungsprofil/institute/ev/" />
+      </category>
+      <category ID="Institut.IHA">
+        <label xml:lang="de" text="Institut für Hörtechnik und Audiologie (IHA)" />
+        <label xml:lang="en" text="Institute of Hearing Technology and Audiology (IHA)" />
+        <url xlink:type="locator" xlink:href="https://tgm.jade-hs.de/iha/" />
+      </category>
+      <category ID="Institut.IVKT">
+        <label xml:lang="de" text="Institut für Informationsverarbeitung in der Kunststofftechnik (IVKT)" />
+        <label xml:lang="en" text="Institut für Informationsverarbeitung in der Kunststofftechnik (IVKT)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/forschung/forschungsprofil/institute/ivkt-institut-fuer-informationsverarbeitung-in-der-kunststofftechnik/" />
+      </category>
+      <category ID="Institut.ILU">
+        <label xml:lang="de" text="Institut für innovative Logistik und Umwelt (ILU)" />
+        <label xml:lang="en" text="Institute for Innovative Logistics and Environment (ILU)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/seefahrt-und-logistik/forschung-praxis/institute/ilu-institut-fuer-innovative-logistik-und-umwelt/" />
+      </category>
+      <category ID="Institut.ITF">
+        <label xml:lang="de" text="Institut für innovative Tourismus- und Freizeitwirtschaft" />
+        <label xml:lang="en" text="Institut für innovative Tourismus- und Freizeitwirtschaft" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/wirtschaft/forschung-und-praxis/institute/itf/" />
+      </category>
+      <category ID="Institut.IGD">
+        <label xml:lang="de" text="Institut für Intermediale Gestaltung und Darstellung (IGD)" />
+        <label xml:lang="en" text="Institut für Intermediale Gestaltung und Darstellung (IGD)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/igd/" />
+      </category>
+      <category ID="Institut.IKP">
+        <label xml:lang="de" text="Institut für Konstruktion und Produktion (IKP)" />
+        <label xml:lang="en" text="Institut für Konstruktion und Produktion (IKP)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/igd/" />
+      </category>
+      <category ID="Institut.IMS">
+        <label xml:lang="de" text="Institut für Maritime Studien (IMS)" />
+        <label xml:lang="en" text="Institute for Maritime Studies (IMS)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/seefahrt-und-logistik/forschung-praxis/institute/ims-institut-fuer-maritime-studien/" />
+      </category>
+      <category ID="Institut.IfM">
+        <label xml:lang="de" text="Institut für Materialprüfung (IfM)" />
+        <label xml:lang="en" text="Institute for Materials Testing (IfM)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/bgg/bauwesen/institute/ifm/" />
+      </category>
+      <category ID="Institut.InMWJ">
+        <label xml:lang="de" text="Institut für Medienwirtschaft und Journalismus (InMWJ)" />
+        <label xml:lang="en" text="Institute for Media Management and Journalism (InMWJ)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/mit/mit-forschung-und-praxis/mit-institute/inmwj/" />
+      </category>
+      <category ID="Institut.IMA">
+        <label xml:lang="de" text="Institut für Mess- und Auswertetechnik (IMA)" />
+        <label xml:lang="en" text="Institute of Metrology and Analysis Technology (IMA)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/?id=2584" />
+      </category>
+      <category ID="Institut.INAU">
+        <label xml:lang="de" text="Institut für Nachhaltige Architektur und Umweltplanung (INAU)" />
+        <label xml:lang="en" text="Institut für Nachhaltige Architektur und Umweltplanung (INAU)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/architektur/forschung/institute/inau/" />
+      </category>
+      <category ID="Institut.InEV">
+        <label xml:lang="de" text="Institut für nachhaltige Energieversorgung (InEV)" />
+        <label xml:lang="en" text="Institute of Sustainable Energy Supply (InEV)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/mit/mit-forschung-und-praxis/mit-institute/inev-institut-fuer-nachhaltige-energieversorgung/" />
+      </category>
+      <category ID="Institut.iro">
+        <label xml:lang="de" text="Institut für Rohrleitungsbau (iro)" />
+        <label xml:lang="en" text="Institute for Pipeline Construction (iro)" />
+        <url xlink:type="locator" xlink:href="https://www.iro-online.de/" />
+      </category>
+      <category ID="Institut.IRT">
+        <label xml:lang="de" text="Institut für Rohrleitungstechnologie (IRT)" />
+        <label xml:lang="en" text="Institute for Pipe Technology (IRT)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/forschung/forschungsprofil/institute/institut-fuer-rohrleitungstechnologie/" />
+      </category>
+      <category ID="Institut.ITAS">
+        <label xml:lang="de" text="Institut für Technische Assistenzsysteme (ITAS)" />
+        <label xml:lang="en" text="Institute for Technical Assistive Systems (ITAS)" />
+        <url xlink:type="locator" xlink:href="https://tgm.jade-hs.de/itas/" />
+      </category>
+      <category ID="Institut.IfW">
+        <label xml:lang="de" text="Institut für Wirtschaftsinformatik (IfW)" />
+        <label xml:lang="en" text="Information Systems Institute (IfW)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/unsere-hochschule/fachbereiche/mit/mit-forschung-und-praxis/mit-institute/ifw/" />
+      </category>
+      <category ID="Institut.IPD">
+        <label xml:lang="de" text="Jade Institut für Produktions- und Dienstleistungssysteme (IPD)" />
+        <label xml:lang="en" text="Jade Institute for Production and Service Systems (IPD)" />
+        <url xlink:type="locator" xlink:href="https://www.jade-hs.de/ipd" />
+      </category>
+    </category>
+    <category ID="Other">
+      <label xml:lang="de" text="Andere" />
+      <label xml:lang="en" text="Other" />
+    </category>
+  </categories>
 </mycoreclass>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+  <section xml:lang="de" title="neuer Eintrag">
+    <p>Dokumentation</p>
+    <ol>
+      <li>Recherche
+        <ol>
+          <li>Einfache Suche</li>
+          <li>Erweiterte Suche</li>
+          <li>Expertensuche</li>
+        </ol>
+      </li>
+      <li>Trefferliste</li>
+      <li>Detailansicht</li>
+      <li>Publizieren</li>
+    </ol>
+    <p>...</p>
+  </section>
+  <meta>
+    <log lastEditor="dschulz" date="2025-11-07" time="11:04" />
+  </meta>
+</MyCoReWebPage>

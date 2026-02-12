@@ -1,143 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-<section xml:lang="de" title="Leitlinie Publikationsserver">
-  <head>
-    <meta name="title" content="Leitlinie Publikationsserver"/>
-    <meta name="description" content="Leitlinien für den Betrieb des Publikationsservers"/>
-  </head>
-
-  <h2>Leitlinien für den Betrieb des Publikationsservers</h2>
-  <h3>1. Ziele und inhaltliche Kriterien für den Publikationsserver</h3>
-  <p>
-    Der Publikationsserver bietet Wissenschaftlerinnen
-    und Wissenschaftlern die organisatorischen und technischen
-    Rahmenbedingungen zur elektronischen Publikation wissenschaftlicher Dokumente.
-  </p>
-
-  <h3>2. Der Sammelauftrag des Betreibers</h3>
-  <p>
-    Der Sammelauftrag des Betreibers des Publikationsservers umfasst die Speicherung, Katalogisierung
-    und Archivierung aller elektronischen Dokumente, die durch Wissenschaftlerinnen und Wissenschaftler
-    veröffentlicht werden. Dies bezieht sich sowohl auf rein elektronische Publikationen
-    als auch auf elektronische Versionen gedruckter Dokumente.
-  </p>
-  <p>
-    Die Urheberrechte der Autorinnen und Autoren bleiben gewahrt. Die Veröffentlichung auf dem Publikationsserver
-    steht einer weiteren Veröffentlichung der Dokumente in Fachzeitschriften oder Monografien sowie auf
-    anderen Servern nicht entgegen. Gemäß den Empfehlungen des Wissenschaftsrats werden alle Wissenschaftlerinnen
-    und Wissenschaftler in Deutschland aufgefordert, sich beim Abschluss von Verlagsverträgen ein entsprechendes
-    weiteres Nutzungsrecht zu sichern und die von ihnen verfassten Dokumente zusätzlich - eventuell nach einer
-    Sperrfrist - auf dem Schriftenserver zu veröffentlichen.
-  </p>
-  <p>
-    Die Einhaltung von Urheber- und Verwertungsrechten Dritter liegt in der Verantwortung der Autorinnen und
-    Autoren bzw. der Herausgeber/innen der elektronischen Dokumente.
-  </p>
-
-  <h3>3. Das elektronische Dokument</h3>
-  <p>
-    Unter dem Begriff „elektronisches Dokument” wird im Sinne dieser Leitlinien ein Dokument verstanden,
-    welches auf Text, Grafik, Audio- oder Video-Sequenzen basiert, in digitaler Form auf einem Datenträger
-    gespeichert ist und über Rechnernetze verbreitet wird.
-  </p>
-  <p>
-    Ein über den Publikationsserver zu veröffentlichendes elektronisches Dokument erfüllt folgende Bedingungen:
-  </p>
-  <ol>
-    <li>
-      Es ist zur Verbreitung in der Öffentlichkeit bestimmt.
-    </li>
-    <li>
-      Es stellt kein dynamisches Dokument dar. Sind Veränderungen notwendig, wird das geänderte
-      elektronische Dokument als neue Version gespeichert.
-    </li>
-    <li>
-      Es entspricht den vom Betreiber vorgegebenen technischen Parametern.
-    </li>
-  </ol>
-
-  <h3>4. Elektronische Dokumente, die über den Publikationsserver veröffentlicht und verbreitet werden</h3>
-  <p>
-    Folgende Kategorien elektronischer Dokumente werden gespeichert und über den Publikationsserver verbreitet:
-  </p>
-  <ul>
-    <li>
-      Publikationen und Publikationsreihen der betreibenden Einrichtung mit wissenschaftlichen Inhalten.
-    </li>
-    <li>
-      Dokumente von aktuellen und ehemaligen ...
-    </li>
-    <li>
-      Publikationen von mit dem betreibenden Institut assoziierten Einrichtungen und Personen
-      und Forscher/innen.
-    </li>
-  </ul>
-
-  <h3>5. Technische Besonderheiten des Publikationsservers</h3>
-  <ol>
-    <li>
-      Die elektronischen Dokumente werden mit individuellen und dauerhaften Adressen versehen, welche einen
-      unmittelbaren Zugriff auf die Dokumente erlauben. Die Adressen werden als URNs (Uniform Resource Name)
-      registriert. Die Administration und Pflege der URNs wird vom Betreiber garantiert. Ergänzend ist es
-      möglich DataCite Digital Object Identifiers (DOIs) zu vergeben.
-    </li>
-    <li>
-      Das Auffinden der elektronischen Dokumente ist über Bibliothekskataloge, Recherchen in bibliografischen
-      Metadaten, über alphabetische und klassifikatorische Ordnungen sowie dynamisch erstellte Listen und Indizes
-      möglich.
-    </li>
-    <li>
-      Die formalen und inhaltsbezogenen Metadaten zu den veröffentlichten Beiträgen können über
-      eine standardisierte Schnittstelle (OAI-PMH 2.0), an etablierte wissenschaftliche
-      Suchmaschinen (z.B. BASE und OAIster) weitergegeben werden. Daneben werden Suchbots
-      über spezielle Tags in den Webseiten und eine Sitemap speziell unterstützt, um
-      beispielsweise auch die Sichtbarkeit bei Google Scholar zu erhöhen. Dies gewährt eine
-      globale Sichtbarbeit der hier eingestellten Daten.
-    </li>
-    <li>
-      Die Archivierungsdauer der Formate hängt von der Verfügbarkeit des Formates, der Betrachtungssoftware sowie
-      den Konvertierungsmöglichkeiten ab. Die Archivierungsdauer beträgt mindestens 5 Jahre. An einer OAIS-konformen
-      Anbindung an LZA-Dienste wird derzeit gearbeitet. Ziel ist es, dass die Daten als SIP-Pakete ausgeliefert werden.
-    </li>
-  </ol>
-
-  <h3>6. Organisatorische Regelungen</h3>
-  <ol>
-    <li>
-      Der Publikationsserver wird vom Betreiber XY betrieben. Die technische Betreuung des
-      Katalogsystems (Rechercheinstrument für den Publikationsserver) erfolgt durch den Hosting-Dienst oder das
-      Rechenzentrum ZZ.
-    </li>
-    <li>
-      Die elektronische Veröffentlichung von Publikationen ist für die mit der betreibenden Einrichtung
-      verbundenen Wissenschaftlerinnen und Wissenschaftler kostenfrei.
-    </li>
-    <li>
-      Für die Veröffentlichung notwendige zusätzliche Arbeiten wie die Aufbereitung der elektronischen Dokumente
-      oder die Konvertierung in andere Formate werden von den Mitarbeiterinnen und Mitarbeitern des Betreibers
-      nach Absprache betreut oder durchgeführt. Arbeiten, die einen bedeutenden Mehraufwand
-      erfordern, werden in Rechnung gestellt.
-    </li>
-    <li>
-      Ansprechpartnerin für alle den Publikationsserver betreffenden Fragen ist:<br />
-      Max Mustermann<br />
-      Tel.: 0049-0123-456789<br />
-      E-Mail: max.mustermann@pub-betreiber.de<br />
-      Betreiber<br />
-      Weit Weg 7<br />
-      D-12345 Musterstadt
-    </li>
-  </ol>
-  <p>
-    Wir danken der Arbeitsgruppe Elektronisches Publizieren an der Humboldt-Universität zu Berlin
-    und den Kolleginnen der Universität der TU Clausthal. Deren Leitlinien für Hochschulschriftenserver wurden
-    hier als Vorlage benutzt.
-  </p>
-
-</section>
-
-<meta>
-  <log date="2014-03-25" time="16:26" labelPath=" » Admin" lastEditor="Kathleen Neumann" />
-</meta>
+  <section xml:lang="de" title="Leitlinie Publikationsserver">
+    <head>
+      <meta name="title" content="Leitlinie Publikationsserver" />
+      <meta name="description" content="Leitlinien für den Betrieb des Publikationsservers" />
+    </head>
+    <h1>Leitlinien</h1>
+    <p />
+    <h2>I. Ziele</h2>
+    <p>
+      <em>oktoPUS</em>ist das institutionelle Repositorium der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth. Es
+      bietet allen Angehörigen der Hochschule die organisatorischen und technischen Rahmenbedingungen zur zeitnahen
+      elektronischen Veröffentlichung und Speicherung wissenschaftlicher Ergebnisse gemäß den Prinzipen des Open Access.
+    </p>
+    <p>Die Veröffentlichung über das Repositorium erfüllt folgende Ziele:</p>
+    <ul>
+      <li>
+        schnelle weltweite Verfügbarkeit und Sichtbarkeit der Veröffentlichungen über Bibliothekskataloge und
+        Suchmaschinen
+      </li>
+      <li>
+        Archivierung für mindestens 5 Jahre mit einer dauerhaft stabilen und zitierfähigen Internetadresse durch
+        Vergabe eines Digital Object Identifiers (DOI)
+      </li>
+      <li>
+        kostenlose Veröffentlichung sowie kostenloser Zugriff auf wissenschaftlicher Forschungsergebnisse und
+        Informationen der Jade Hochschule
+      </li>
+    </ul>
+    <p>
+      Der technische Betrieb des Publikationsservers erfolgt durch die Hochschulbibliothek in Zusammenarbeit mit der
+      Verbundzentrale des Gemeinsamen Bibliotheksverbundes Göttingen.
+    </p>
+    <p />
+    <h2>II. Erklärung zu Open Access </h2>
+    <p>
+      Ziel der Jade Hochschule ist es, insbesondere Forschungsergebnisse allen Interessierten zugänglich zu machen und
+      dadurch den wissenschaftlichen Austausch sowie den Transfer von Wissen und Technologie in Wirtschaft und
+      Gesellschaft zu intensivieren. 
+    </p>
+    <p>
+      Die Jade Hochschule unterstützt das Prinzip des Open Access nach der <a href="https://openaccess.mpg.de/Berliner-Erklaerung" title="Berliner Erklärung über den offenen Zugang zu wissenschaftlichem Wissen" target="_blank" rel="noopener">
+      „Berliner Erklärung über den offenen Zugang zu wissenschaftlichem Wissen“
+    </a> und fördert die Publikationsaktivitäten von Forschenden durch den Aufbau und Betrieb von
+      Open-Access-Infrastrukturen und ein umfassendes Angebot an Beratungs- und Publikationsservices seitens der
+      Hochschulbibliothek.
+    </p>
+    <p>
+      Die <a href="https://dms.jade-hs.de/d.web/download?Q4=P000033371" title="Open-Access-Policy der Jade Hochschule" target="_blank" rel="noopener">
+      Open-Access-Policy
+    </a> der Jade Hochschule wurde 2019 durch den Senat bestätigt.
+    </p>
+    <p />
+    <h2>III. Veröffentlichungen im Repositorium</h2>
+    <p>
+      Personen, deren Wirken in Zusammenhang mit der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth steht, können in
+      einem akzeptierten Dateiformat vorliegende Publikationen in das Repositorium einbringen. Folgende Arten
+      elektronischer Dokumente werden gespeichert:
+    </p>
+    <ul>
+      <li>
+        Dokumente von Studierenden der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth wie Bachelor- und
+        Masterarbeiten,
+      </li>
+      <li>Publikationen von Mitarbeitenden der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth</li>
+      <li>
+        durch Mtiarbeitende der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth herausgegebene Publikationen und
+        Publikationsreihen wie Sammelwerke, Kongressbände, Forschungsberichte oder E-Journals,
+      </li>
+      <li>
+        Publikationen und Publikationsreihen von mit der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth assoziierten
+        Einrichtungen und Personen, Dokumente, deren Veröffentlichung durch die jeweilige Prüfungsordnung vorgeschrieben
+        ist, wie Dissertationen und Habilitationsschriften,
+      </li>
+      <li>Publikationen begleitend zu Veranstaltungen und Präsentationen, wie beispielsweise Präsentationsfolien.</li>
+    </ul>
+    <p>
+      Bitte beachten Sie die <a href="https://dms.jade-hs.de/d.web/download?Q4=P000034372" title="Publikations- und Affiliationsrichtlinie" target="_blank" rel="noopener">
+      Publikations- und Affiliationsrichtlinie
+    </a> der Jade Hochschule. 
+    </p>
+    <p />
+    <h2>IV. Anforderungen an elektronische Dokumente</h2>
+    <ul>
+      <li>
+        Das Dokument ist kein sich dynamisch veränderndes Dokument. Sind Veränderungen notwendig, wird das geänderte
+        Dokument als neue Version gespeichert. Bereits publizierte Dokumente werden nicht gelöscht oder verändert, es
+        sei denn, es liegen schwerwiegende rechtliche Gründe vor.
+      </li>
+      <li>
+        Das elektronische Dokument basiert auf Text, Grafik, Audio- oder Videosequenzen oder sonstigen Daten. Es ist
+        in digitaler Form auf einem Datenträger gespeichert und wird über Rechnernetze verbreitet. oktoPUS unterstützt
+        alle Dateiformate, empfiehlt jedoch die Nutzung offener Formate, die zur langfristigen Archivierung geeignet
+        sind und über frei zugängliche Darstellungsprogramme angezeigt werden können (z. B. PDF/A, TeX, XML). Ergänzend
+        kann auch das Originalformat des Dokuments archiviert werden.
+      </li>
+      <li>
+        Das Dokument muss frei sein von jeglichen technischen Schutzvorrichtungen und Verfahren des Digitalen
+        Rechtemanagements (DRM). Formatmigrationen werden bei Bedarf vorgenommen, um z. B. die langfristige
+        Verfügbarkeit zu gewährleisten. Formatmigrationen gelten nicht als Veränderung des Dokuments. Es gibt keine
+        Layout-Vorgaben.
+      </li>
+    </ul>
+    <p>
+      <span style="font-family: arial, helvetica, sans-serif;">
+        <strong />
+      </span>
+    </p>
+    <h2>
+      <span style="font-family: arial, helvetica, sans-serif;">V. Veröffentlichungswege</span>
+    </h2>
+    <p>
+      Für Mitglieder und Angehörige mit Hochschullogin steht ein Formular zum Hochladen von Dokumenten und der
+      zugehörigen Metadaten zur Verfügung. Alternativ kann ein PDF-Formular zum Versand per E-Mail verwendet werden.
+    </p>
+    <ul>
+      <li>Webformular für Personen mit Hochschullogin
+        <span style="background-color: #fbeeb8;">[Link einfügen]</span>
+      </li>
+      <li>PDF-Formular zum Versand per E-Mail 
+        <span style="background-color: #fbeeb8;">[Link einfügen]</span>
+      </li>
+    </ul>
+    <p>
+      Die Dokumente werden durch die Hochschulbibliothek geprüft und nach Eingang der Einwilligung der Veröffentlichung
+      freigeschaltet und damit veröffentlicht.
+    </p>
+    <p />
+    <h2>
+      <span style="font-family: arial, helvetica, sans-serif;">VI. Rechtliche Rahmenbedingungen</span>
+    </h2>
+    <p>
+      Die Autor_innen übertragen der Hochschulbibliothek ein einfaches und unbefristetes Nutzungsrecht. Die
+      Urheberrechte der Autor_innen bleiben gewahrt. Eine Publikation in oktoPUS steht einer weiteren Veröffentlichung
+      (z. B. in Fachzeitschriften oder auf anderen Servern) nicht entgegen. Umgekehrt werden auch
+      Zweitveröffentlichungen akzeptiert, sofern rechtliche oder vertragliche Regelungen dies zulassen.
+    </p>
+    <p>Die Rechteübertragung bedarf grundsätzlich der Schriftform.</p>
+    <ul>
+      <li>
+        Webformular für Personen mit Hochschullogin 
+        <span style="background-color: #fbeeb8;">[Link einfügen]</span>
+      </li>
+      <li>
+        PDF-Formular zum Versand per E-Mail
+        <span style="background-color: #fbeeb8;">[Link einfügen]</span>
+      </li>
+    </ul>
+    <p>
+      Bitte beachten Sie
+      unsere <a href="https://reposis-test.gbv.de/jadehs/content/publish/contract.xml" title="Nutzungsbedingungen" target="_blank" rel="noopener">
+        Nutzungsbedingungen</a>.
+    </p>
+    <p />
+    <h2>
+      <span style="font-family: arial, helvetica, sans-serif;">VII. Sonstiges</span>
+    </h2>
+    <p>
+      Die Hochschulbibliothek bietet Beratung und Unterstützung bei allen Fragen zum Publizieren auf <em>oktoPUS</em>an.
+      Sie vergibt dauerhafte persistente und zitierfähige Identifier (DOI), um die Dokumente langfristig zugänglich und
+      auffindbar zu machen. Sie unterstützt sowohl bei der formalen als auch inhaltlichen Erschließung der Dokumente und
+      übernimmt die Prüfung und Pflege der Metadaten.
+    </p>
+    <p>
+      Die Metadaten der Dokumente und deren Link zum Volltext werden im Katalog der Hochschulbibliothek und in anderen
+      Katalogen öffentlich-rechtlicher Einrichtungen nachgewiesen. Im Rahmen der gesetzlich geregelten Pflichtabgabe von
+      Netzpublikationen erfolgt die Weitergabe der Metadaten sowie der elektronischen Dokumente an die Deutsche
+      Nationalbibliothek.
+    </p>
+    <p>
+      Die Hochschulbibliothek garantiert für elektronische Publikationen einen Archivierungszeitraum von mindestens
+      fünf Jahren. Für Dokumente, die der gesetzlich geregelten Pflichtabgabe unterliegen, werden die Anforderungen an
+      eine Langzeitarchivierung durch Ablieferung an die Deutsche Nationalbibliothek erfüllt.
+    </p>
+  </section>
+  <meta>
+    <log lastEditor="cboss" date="2026-01-23" time="14:17" />
+  </meta>
 </MyCoReWebPage>
