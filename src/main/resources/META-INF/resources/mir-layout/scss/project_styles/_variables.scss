@@ -34,6 +34,7 @@ $jGrau10: #EDEFED;
 $jGrau5:  #F6F7F6;
 
 $jText:   #212529;
+$jGruen:  #3b7944;
 
 // --------------------------------------------------
 //  overwrite bootstrap
@@ -41,6 +42,9 @@ $jText:   #212529;
 
 $primary: $jRot;
 $secondary: $jGrau;
+$success: $jGruen;
+$info: $jGrau;
+$warning: $jGrau;
 
 $body-color: $jText;
 $font-size-base: 1rem;

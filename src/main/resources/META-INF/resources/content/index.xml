@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MyCoReWebPage>
   <section xml:lang="de" title="oktoPUS - Dokumentenserver der Jade Hochschule">
-    <div class="jumbotwo">
-      <div class="project-title-box">
-        <div style="display: flex; justify-content: center; align-items: center; gap: 16px;">
-          <img src="/content/oktopus_oa_logo_rund_rot.png" width="168" height="168" alt="" />
-          <img src="/content/Oktopus_Dokumentenserver_Jade_HS_Schriftzug.svg" width="300" height="76" alt="" />
-        </div>
-        <h2 style="text-align: center;" />
-      </div>
-      <index-search-form />
+    <div class="jumbotwo"></div>
+    <div class="project-title-box">
+      <h1 class="sr-only">OKTO<span>PUS</span></h1>
+      <h2 class="sr-only">Dokumentenserver der Jade Hochschule</h2>
     </div>
+    <img
+      class="logo-octopus"
+      aria-hidden="true"
+      src="../images/Logo_Dokumentenserver_JadeHochschule.svg"
+      alt="oktoPUS - Dokumentenserver der Jade Hochschule" />
+    <index-search-form />
     <script src="../js/index.js"></script>
   </section>
   <meta>

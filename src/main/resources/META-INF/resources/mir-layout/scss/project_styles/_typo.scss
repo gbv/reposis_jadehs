@@ -5,13 +5,41 @@
 // set the defaults for all responsive levels here
 // no (xl) media query necessary (desktop first)
 
-// prevent underlined links
-a.badge,
-a.btn,
-.result_list a,
-ul.names li a {
-  text-decoration: none;
+  // prevent underlined links
+  a.badge,
+  a.btn,
+  .result_list a,
+  ul.names li a {
+    text-decoration: none;
+  }
+
+  // adjust hit list badges
+  .result_list #hit_list .hit_item,
+  #badges {
+    .hit_oa {
+      .badge-success {background-color: $jGruen; color: white;}
+      .badge-warning {background-color: $jRot; color: white;}
+    }
+    .hit_date .badge {background-color: #d5d7d4; color: black;}
+    .hit_type .badge {background-color: $jGrau; color: white;}
+    .hit_license .badge {background-color: #d5d7d4; color: black;}
+    .hit_state {
+      .mir-published {background-color: $jGruen; color: white;}
+      .mir-submitted,
+      .mir-new,
+      .mir-imported,
+      .mir-review,
+      .mir-blocked {background-color: $jGrau; color: white;}
+      .mir-deleted {background-color: $jRot; color: white;}
+      span {background-color: $jGrau25; color: black;}
+    }
+  }
+
+.result_body .result_filter .card.worldReadableComplete li[data-fq="worldReadableComplete:false"] .title {
+  background-color: white !important;
+  color: $jRot !important;
 }
+
 
 // Large devices (desktops) and below: <= 1200px
 @include media-breakpoint-down(lg) {
