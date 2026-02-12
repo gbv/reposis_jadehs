@@ -1,50 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE MyCoReWebPage>
 <MyCoReWebPage>
-
-  <section title="oktoPUS - Dokumentenserver der Jade Hochschule" xml:lang="de">
-    <div class="jumbotwo"></div>
-
-    <div class="project-title-box">
-      <h1>OKTO<span>PUS</span></h1>
-      <h2>Dokumentenserver der Jade Hochschule</h2>
-    </div>
-
-    <form
-      action="../servlets/solr/find"
-      id="project-searchMainPage"
-      class="form-inline d-flex justify-content-center mt-5"
-      role="search">
-      <div class="input-group input-group-lg">
-        <input
-          name="condQuery"
-          placeholder="Suche in 160 Dokumenten"
-          class="form-control search-query"
-          id="project-searchInput"
-          type="text" />
-        <div class="input-group-append">
-          <button type="submit" class="btn btn-primary">
-            <i class="fa fa-search"></i>
-          </button>
+  <section xml:lang="de" title="oktoPUS - Dokumentenserver der Jade Hochschule">
+    <div class="jumbotwo">
+      <div class="project-title-box">
+        <div style="display: flex; justify-content: center; align-items: center; gap: 16px;">
+          <img src="/content/oktopus_oa_logo_rund_rot.png" width="168" height="168" alt="" />
+          <img src="/content/Oktopus_Dokumentenserver_Jade_HS_Schriftzug.svg" width="300" height="76" alt="" />
         </div>
+        <h2 style="text-align: center;" />
       </div>
-    </form>
-    <script src="../js/jquery.number.js"></script>
-    <script>
-      $( document ).ready(function() {
-        $.ajax({
-          type: "GET",
-          url: "../api/v1/search?q=objectType:mods AND state:published&amp;rows=0&amp;wt=json&amp;json.wrf=?",
-          dataType: "jsonp",
-          success: function (data) {
-            $('#project-searchInput').attr('placeholder', 'Suche in ' + $.number(data.response.numFound,0, ',', '.') + ' Dokumenten');
-          },
-        });
-      });
-    </script>
+      <index-search-form />
+    </div>
+    <script src="../js/index.js"></script>
   </section>
-
   <meta>
-    <log date="2015-05-22" time="11:12" labelPath=" » Start" lastEditor="Kathleen Neumann" />
+    <log lastEditor="cboss" date="2026-02-11" time="16:20" />
   </meta>
 </MyCoReWebPage>

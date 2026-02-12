@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Kontakt">
+    <h2>Kontakt</h2>
+    <p />
+    <div>
+      <strong>Für Fragen zum Hochschulrepositorium oktoPUS:</strong>
+    </div>
+    <div />
+    <div>Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth</div>
+    <div>Hochschulbibliothek, Zentrale Digitale Services</div>
+    <div>Friedrich-Paffrath-Str. 101</div>
+    <div>26389 Wilhelmshaven</div>
+    <div />
+    <div>Internet: <a href="https://jade-hs.de/bib">https://jade-hs.de/bib</a> 
+    </div>
+    <div>E-Mail: 
+      <a href="mailto:publikationen-bib@jade-hs.de">publikationen-bib@jade-hs.de</a>
+    </div>
+    <p />
+    <div>
+      <strong>Für Fragen zum Softwareframework MyCoRe und dem Datenbankserver:</strong>
+    </div>
+    <div />
+    <div>Verbundzentrale des GBV (VZG)</div>
+    <div>Platz der Göttinger Sieben 1</div>
+    <div>37073 Göttingen</div>
+    <div />
+    <div>Internet:
+      <a href="https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service">
+        https://www.gbv.de/Verbundzentrale/serviceangebote/reposis-repository-service
+      </a>
+    </div>
+    <div>E-Mail:
+      <a href="mailto:dms-list@lists.gibv.de">dms-list@lists.gibv.de</a>
+    </div>
+    <div />
+  </section>
+  <meta>
+    <log lastEditor="cboss" date="2026-01-20" time="10:38" />
+  </meta>
+</MyCoReWebPage>
