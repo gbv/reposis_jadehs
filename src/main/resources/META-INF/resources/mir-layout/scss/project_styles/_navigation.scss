@@ -21,15 +21,23 @@
     }
   }
 
-  .mir-prop-nav .navbar-nav > li > a {
-    color: $white;
-    font-size: 1rem;
-    margin-left: .25rem;
-    margin-right: .25rem;
-    &:hover,
-    &:focus {
-      //color: $jGrau;
-      color: white;
+  .mir-prop-nav .navbar-nav > li {
+    & > a {
+      color: $white;
+      font-size: 1rem;
+      margin-left: .25rem;
+      margin-right: .25rem;
+      &:hover,
+      &:focus {
+        color: white;
+      }
+    }
+    &.active > a {
+      color: $white;
+      &:hover,
+      &:focus {
+        color: white;
+      }
     }
   }
 
