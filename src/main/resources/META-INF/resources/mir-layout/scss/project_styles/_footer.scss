@@ -17,11 +17,19 @@
     .project-copyright {
       margin-top: 1rem;
       color: $jRot;
+      a {
+        color: $jRot;
+        &:hover,
+        &:focus {
+          color: $jGrau;
+        }
+      }
     }
     h4 {
       color: $body-color;
     }
   }
+
   #powered_by {
     margin-top: 3rem;
   }

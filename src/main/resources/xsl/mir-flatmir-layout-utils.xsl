@@ -117,9 +117,9 @@
                 <br />
                 26389 Wilhelmshaven<br/>
                 <br />
-                Tel. <span class="text-primary">+49 4421 985-0</span>
+                Tel. +49 4421 985-0
                 <br />
-                Fax <span class="text-primary"> +49 4421 985-2304</span>
+                Fax +49 4421 985-2304
               </p>
             </div>
             <div class="col-6">
@@ -132,8 +132,10 @@
           <div class="row">
             <div class="col-12">
               <div class="project-copyright">
-                <xsl:value-of select="concat('©', date:year(date:date()))" />
-                Jade Hochschule Wilhelmshaven | Oldenburg | Elsfleth
+                <a href="https://www.jade-hs.de/">
+                  <xsl:value-of select="concat('©', date:year(date:date()))" />
+                  Jade Hochschule Wilhelmshaven | Oldenburg | Elsfleth
+                </a>
               </div>
             </div>
           </div>

@@ -16,25 +16,28 @@
 
 $assetPathRoot : "../../../../";
 
-$jRot:    #D50911;
-$jRot20:  #F9D7C8;
-$jRot15:  #FAE1D6;
-$jRot10:  #FCEBE3;
-$jRot5:   #FEF5F2;
+$jRot:      #D50911; // Primaerfarbe Jade-Rot (Hausfarbe)
+$jRot20:    #F9D7C8;
+$jRot15:    #FAE1D6;
+$jRot10:    #FCEBE3;
+$jRot5:     #FEF5F2;
 
-$jGrau:   #535850;
-$jGrau95: #5C625A;
-$jGrau90: #656B63;
-$jGrau35: #C4C8C3;
-$jGrau30: #CCD0CC;
-$jGrau25: #D5D8D5;
-$jGrau20: #DEE1DD;
-$jGrau15: #E6E7E4;
-$jGrau10: #EDEFED;
-$jGrau5:  #F6F7F6;
+$jGrau:     #535850; // Sekundaerfarbe Flaechen Dunkelgrau 100%
+$jGrau95:   #5C625A;
+$jGrau90:   #656B63; // Flaechenfarbe Grau 90%
+$pLogo:     #808080; // Logofarbe Grau (nicht CD Jade, wurde freigegeben so lassen)
+$jGrau35:   #C4C8C3; // Grau 35%
+$jGrau30:   #CCD0CC;
+$jGrau25:   #D5D8D5; // Flaechenfarbe Grau 25%	"Schriftfarbe und Flaechenfarbe
+$jGrau20:   #DEE1DD; // Schriftfarbe und Flaechenfarbe Grau 20%
+$jGrau15:   #E6E7E4;
+$jGrau10:   #EDEFED;
+$jGrau5:    #F6F7F6;
 
-$jText:   #212529;
-$jGruen:  #3b7944;
+$jNeu:      #691B70; // Neue Farbe
+
+$jText:     #212529;
+$jGruen:    #3a7949; // Flaechenfarbe und Textfarbe Gruen
 
 // --------------------------------------------------
 //  overwrite bootstrap
@@ -42,9 +45,12 @@ $jGruen:  #3b7944;
 
 $primary: $jRot;
 $secondary: $jGrau;
+
 $success: $jGruen;
 $info: $jGrau;
 $warning: $jGrau;
+
+$gray-700: $jGrau35;
 
 $body-color: $jText;
 $font-size-base: 1rem;
@@ -56,6 +62,7 @@ $headings-font-family: 'Exo 2', system-ui,-apple-system,"Segoe UI",Roboto,"Helve
 
 $link-color: $jRot;
 $link-hover-color: $jGrau;
-$link-decoration: underline;
+$link-decoration: none;
+$link-hover-decoration: underline;
 
 $dropdown-link-color: $jText;
