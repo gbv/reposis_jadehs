@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
   xmlns:date="http://exslt.org/dates-and-times"
+  xmlns:mcracl="xalan://org.mycore.common.xml.MCRXMLFunctions"
+  xmlns:mcri18n="xalan://org.mycore.services.i18n.MCRTranslation"
+  xmlns:mcrversion="xalan://org.mycore.common.MCRCoreVersion"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  exclude-result-prefixes="date">
+  exclude-result-prefixes="date mcracl mcri18n mcrversion">
 
   <xsl:import href="resource:xsl/layout/mir-common-layout.xsl" />
-
-  <xsl:variable name="checkAdmin" select="document('userobjectrights:isCurrentUserInRole:admin')/boolean='true'"/>
-  <xsl:variable name="checkEditor" select="document('userobjectrights:isCurrentUserInRole:editor')/boolean='true'"/>
 
   <xsl:template name="mir.navigation">
     <div class="container">
@@ -152,12 +152,12 @@
   </xsl:template>
 
   <xsl:template name="mir.powered_by">
-    <xsl:variable name="mcr_version" select="document('version:full')/version/text()" />
+    <xsl:variable name="version" select="concat('MyCoRe ', mcrversion:getCompleteVersion())" />
     <div id="powered_by">
       <a href="https://www.mycore.de">
         <img
           src="{$WebApplicationBaseURL}mir-layout/images/mycore_logo_small_invert.png"
-          title="{$mcr_version}"
+          title="{$version}"
           alt="powered by MyCoRe" />
       </a>
     </div>
@@ -177,14 +177,14 @@
             <input
               id="searchbar"
               name="condQuery"
-              placeholder="{document('i18n:mir.navsearch.placeholder')/i18n/text()}"
+              placeholder="{mcri18n:translate('mir.navsearch.placeholder')}"
               class="form-control form-control-sm search-query"
               type="text" />
             <xsl:choose>
-              <xsl:when test="$checkAdmin or $checkEditor">
+              <xsl:when test="mcracl:isCurrentUserInRole('admin') or mcracl:isCurrentUserInRole('editor')">
                 <input name="owner" type="hidden" value="createdby:*" />
               </xsl:when>
-              <xsl:when test="not($CurrentUser='guest')">
+              <xsl:when test="not(mcracl:isCurrentUserGuestUser())">
                 <input name="owner" type="hidden" value="createdby:{$CurrentUser}" />
               </xsl:when>
             </xsl:choose>
@@ -223,10 +223,12 @@
     <xsl:param name="link" />
     <xsl:param name="base-url" select="$WebApplicationBaseURL" />
     <xsl:choose>
-      <xsl:when test="starts-with($link,'http:')
-                      or starts-with($link,'https:')
-                      or starts-with($link,'mailto:')
-                      or starts-with($link,'ftp:')">
+      <xsl:when test="
+        starts-with($link,'http:')
+        or starts-with($link,'https:')
+        or starts-with($link,'mailto:')
+        or starts-with($link,'ftp:')
+      ">
         <xsl:value-of select="$link" />
       </xsl:when>
       <xsl:when test="starts-with($link,'/')">
