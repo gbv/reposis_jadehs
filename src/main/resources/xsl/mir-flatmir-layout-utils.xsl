@@ -145,7 +145,7 @@
             href="{$WebApplicationBaseURL}"
             title="Zur Startseite">
             <img
-              src="{$WebApplicationBaseURL}images/Logo_Dokumentenserver_JadeHochschule.svg"
+              src="{$WebApplicationBaseURL}images/logo-jade-hs-2026.svg"
               alt="" />
           </a>
         </div>
