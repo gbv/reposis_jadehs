@@ -1,180 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Leitlinie Publikationsserver">
-    <head>
+<MyCoReWebPage><section xml:lang="de" title="Leitlinie Publikationsserver"><head>
       <meta name="title" content="Leitlinie Publikationsserver" />
       <meta name="description" content="Leitlinien für den Betrieb des Publikationsservers" />
-    </head>
-    <h1>Leitlinien</h1>
-    <p />
-    <h2>I. Ziele</h2>
-    <p>
-      <em>oktoPUS</em>ist das institutionelle Repositorium der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth. Es
-      bietet allen Angehörigen der Hochschule die organisatorischen und technischen Rahmenbedingungen zur zeitnahen
-      elektronischen Veröffentlichung und Speicherung wissenschaftlicher Ergebnisse gemäß den Prinzipen des Open Access.
-    </p>
-    <p>Die Veröffentlichung über das Repositorium erfüllt folgende Ziele:</p>
-    <ul>
-      <li>
-        schnelle weltweite Verfügbarkeit und Sichtbarkeit der Veröffentlichungen über Bibliothekskataloge und
-        Suchmaschinen
-      </li>
-      <li>
-        Archivierung für mindestens 5 Jahre mit einer dauerhaft stabilen und zitierfähigen Internetadresse durch
-        Vergabe eines Digital Object Identifiers (DOI)
-      </li>
-      <li>
-        kostenlose Veröffentlichung sowie kostenloser Zugriff auf wissenschaftlicher Forschungsergebnisse und
-        Informationen der Jade Hochschule
-      </li>
-    </ul>
-    <p>
-      Der technische Betrieb des Publikationsservers erfolgt durch die Hochschulbibliothek in Zusammenarbeit mit der
-      Verbundzentrale des Gemeinsamen Bibliotheksverbundes Göttingen.
-    </p>
-    <p />
-    <h2>II. Erklärung zu Open Access </h2>
-    <p>
-      Ziel der Jade Hochschule ist es, insbesondere Forschungsergebnisse allen Interessierten zugänglich zu machen und
-      dadurch den wissenschaftlichen Austausch sowie den Transfer von Wissen und Technologie in Wirtschaft und
-      Gesellschaft zu intensivieren. 
-    </p>
-    <p>
-      Die Jade Hochschule unterstützt das Prinzip des Open Access nach der <a href="https://openaccess.mpg.de/Berliner-Erklaerung" title="Berliner Erklärung über den offenen Zugang zu wissenschaftlichem Wissen" target="_blank" rel="noopener">
-      „Berliner Erklärung über den offenen Zugang zu wissenschaftlichem Wissen“
-    </a> und fördert die Publikationsaktivitäten von Forschenden durch den Aufbau und Betrieb von
-      Open-Access-Infrastrukturen und ein umfassendes Angebot an Beratungs- und Publikationsservices seitens der
-      Hochschulbibliothek.
-    </p>
-    <p>
-      Die <a href="https://dms.jade-hs.de/d.web/download?Q4=P000033371" title="Open-Access-Policy der Jade Hochschule" target="_blank" rel="noopener">
-      Open-Access-Policy
-    </a> der Jade Hochschule wurde 2019 durch den Senat bestätigt.
-    </p>
-    <p />
-    <h2>III. Veröffentlichungen im Repositorium</h2>
-    <p>
-      Personen, deren Wirken in Zusammenhang mit der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth steht, können in
-      einem akzeptierten Dateiformat vorliegende Publikationen in das Repositorium einbringen. Folgende Arten
-      elektronischer Dokumente werden gespeichert:
-    </p>
-    <ul>
-      <li>
-        Dokumente von Studierenden der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth wie Bachelor- und
-        Masterarbeiten,
-      </li>
-      <li>Publikationen von Mitarbeitenden der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth</li>
-      <li>
-        durch Mtiarbeitende der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth herausgegebene Publikationen und
-        Publikationsreihen wie Sammelwerke, Kongressbände, Forschungsberichte oder E-Journals,
-      </li>
-      <li>
-        Publikationen und Publikationsreihen von mit der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth assoziierten
-        Einrichtungen und Personen, Dokumente, deren Veröffentlichung durch die jeweilige Prüfungsordnung vorgeschrieben
-        ist, wie Dissertationen und Habilitationsschriften,
-      </li>
-      <li>Publikationen begleitend zu Veranstaltungen und Präsentationen, wie beispielsweise Präsentationsfolien.</li>
-    </ul>
-    <p>
-      Bitte beachten Sie die <a href="https://dms.jade-hs.de/d.web/download?Q4=P000034372" title="Publikations- und Affiliationsrichtlinie" target="_blank" rel="noopener">
-      Publikations- und Affiliationsrichtlinie
-    </a> der Jade Hochschule. 
-    </p>
-    <p />
-    <h2>IV. Anforderungen an elektronische Dokumente</h2>
-    <ul>
-      <li>
-        Das Dokument ist kein sich dynamisch veränderndes Dokument. Sind Veränderungen notwendig, wird das geänderte
-        Dokument als neue Version gespeichert. Bereits publizierte Dokumente werden nicht gelöscht oder verändert, es
-        sei denn, es liegen schwerwiegende rechtliche Gründe vor.
-      </li>
-      <li>
-        Das elektronische Dokument basiert auf Text, Grafik, Audio- oder Videosequenzen oder sonstigen Daten. Es ist
-        in digitaler Form auf einem Datenträger gespeichert und wird über Rechnernetze verbreitet. oktoPUS unterstützt
-        alle Dateiformate, empfiehlt jedoch die Nutzung offener Formate, die zur langfristigen Archivierung geeignet
-        sind und über frei zugängliche Darstellungsprogramme angezeigt werden können (z. B. PDF/A, TeX, XML). Ergänzend
-        kann auch das Originalformat des Dokuments archiviert werden.
-      </li>
-      <li>
-        Das Dokument muss frei sein von jeglichen technischen Schutzvorrichtungen und Verfahren des Digitalen
-        Rechtemanagements (DRM). Formatmigrationen werden bei Bedarf vorgenommen, um z. B. die langfristige
-        Verfügbarkeit zu gewährleisten. Formatmigrationen gelten nicht als Veränderung des Dokuments. Es gibt keine
-        Layout-Vorgaben.
-      </li>
-    </ul>
-    <p>
-      <span style="font-family: arial, helvetica, sans-serif;">
-        <strong />
-      </span>
-    </p>
-    <h2>
-      <span style="font-family: arial, helvetica, sans-serif;">V. Veröffentlichungswege</span>
-    </h2>
-    <p>
-      Für Mitglieder und Angehörige mit Hochschullogin steht ein Formular zum Hochladen von Dokumenten und der
-      zugehörigen Metadaten zur Verfügung. Alternativ kann ein PDF-Formular zum Versand per E-Mail verwendet werden.
-    </p>
-    <ul>
-      <li>Webformular für Personen mit Hochschullogin
-        <span style="background-color: #fbeeb8;">[Link einfügen]</span>
-      </li>
-      <li>PDF-Formular zum Versand per E-Mail 
-        <span style="background-color: #fbeeb8;">[Link einfügen]</span>
-      </li>
-    </ul>
-    <p>
-      Die Dokumente werden durch die Hochschulbibliothek geprüft und nach Eingang der Einwilligung der Veröffentlichung
-      freigeschaltet und damit veröffentlicht.
-    </p>
-    <p />
-    <h2>
-      <span style="font-family: arial, helvetica, sans-serif;">VI. Rechtliche Rahmenbedingungen</span>
-    </h2>
-    <p>
-      Die Autor_innen übertragen der Hochschulbibliothek ein einfaches und unbefristetes Nutzungsrecht. Die
-      Urheberrechte der Autor_innen bleiben gewahrt. Eine Publikation in oktoPUS steht einer weiteren Veröffentlichung
-      (z. B. in Fachzeitschriften oder auf anderen Servern) nicht entgegen. Umgekehrt werden auch
-      Zweitveröffentlichungen akzeptiert, sofern rechtliche oder vertragliche Regelungen dies zulassen.
-    </p>
-    <p>Die Rechteübertragung bedarf grundsätzlich der Schriftform.</p>
-    <ul>
-      <li>
-        Webformular für Personen mit Hochschullogin 
-        <span style="background-color: #fbeeb8;">[Link einfügen]</span>
-      </li>
-      <li>
-        PDF-Formular zum Versand per E-Mail
-        <span style="background-color: #fbeeb8;">[Link einfügen]</span>
-      </li>
-    </ul>
-    <p>
-      Bitte beachten Sie
-      unsere <a href="https://reposis-test.gbv.de/jadehs/content/publish/contract.xml" title="Nutzungsbedingungen" target="_blank" rel="noopener">
-        Nutzungsbedingungen</a>.
-    </p>
-    <p />
-    <h2>
-      <span style="font-family: arial, helvetica, sans-serif;">VII. Sonstiges</span>
-    </h2>
-    <p>
-      Die Hochschulbibliothek bietet Beratung und Unterstützung bei allen Fragen zum Publizieren auf <em>oktoPUS</em>an.
-      Sie vergibt dauerhafte persistente und zitierfähige Identifier (DOI), um die Dokumente langfristig zugänglich und
-      auffindbar zu machen. Sie unterstützt sowohl bei der formalen als auch inhaltlichen Erschließung der Dokumente und
-      übernimmt die Prüfung und Pflege der Metadaten.
-    </p>
-    <p>
-      Die Metadaten der Dokumente und deren Link zum Volltext werden im Katalog der Hochschulbibliothek und in anderen
-      Katalogen öffentlich-rechtlicher Einrichtungen nachgewiesen. Im Rahmen der gesetzlich geregelten Pflichtabgabe von
-      Netzpublikationen erfolgt die Weitergabe der Metadaten sowie der elektronischen Dokumente an die Deutsche
-      Nationalbibliothek.
-    </p>
-    <p>
-      Die Hochschulbibliothek garantiert für elektronische Publikationen einen Archivierungszeitraum von mindestens
-      fünf Jahren. Für Dokumente, die der gesetzlich geregelten Pflichtabgabe unterliegen, werden die Anforderungen an
-      eine Langzeitarchivierung durch Ablieferung an die Deutsche Nationalbibliothek erfüllt.
-    </p>
-  </section>
-  <meta>
-    <log lastEditor="cboss" date="2026-01-23" time="14:17" />
-  </meta>
-</MyCoReWebPage>
+    </head><h1>Leitlinien</h1><p /><h2>I. Ziele</h2><p><em>oktoPUS</em>ist das institutionelle Repositorium der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth. Es bietet allen Angehörigen der Hochschule die organisatorischen und technischen Rahmenbedingungen zur zeitnahen elektronischen Veröffentlichung und Speicherung wissenschaftlicher Ergebnisse gemäß den Prinzipen des Open Access.</p><p>Die Veröffentlichung über das Repositorium erfüllt folgende Ziele:</p><ul>
+<li>schnelle weltweite Verfügbarkeit und Sichtbarkeit der Veröffentlichungen über Bibliothekskataloge und Suchmaschinen</li>
+<li>Archivierung für mindestens 5 Jahre mit einer dauerhaft stabilen und zitierfähigen Internetadresse durch Vergabe eines Digital Object Identifiers (DOI)</li>
+<li>kostenlose Veröffentlichung sowie kostenloser Zugriff auf wissenschaftlicher Forschungsergebnisse und Informationen der Jade Hochschule</li>
+</ul><p>Der technische Betrieb des Publikationsservers erfolgt durch die Hochschulbibliothek in Zusammenarbeit mit der Verbundzentrale des Gemeinsamen Bibliotheksverbundes Göttingen.</p><p /><h2>II. Erklärung zu Open Access </h2><p>Ziel der Jade Hochschule ist es, insbesondere Forschungsergebnisse allen Interessierten zugänglich zu machen und dadurch den wissenschaftlichen Austausch sowie den Transfer von Wissen und Technologie in Wirtschaft und Gesellschaft zu intensivieren. </p><p>Die Jade Hochschule unterstützt das Prinzip des Open Access nach der <a href="https://openaccess.mpg.de/Berliner-Erklaerung" title="Berliner Erklärung über den offenen Zugang zu wissenschaftlichem Wissen" target="_blank" rel="noopener"> „Berliner Erklärung über den offenen Zugang zu wissenschaftlichem Wissen“ </a> und fördert die Publikationsaktivitäten von Forschenden durch den Aufbau und Betrieb von Open-Access-Infrastrukturen und ein umfassendes Angebot an Beratungs- und Publikationsservices seitens der Hochschulbibliothek.</p><p>Die <a href="https://dms.jade-hs.de/d.web/download?Q4=P000033371" title="Open-Access-Policy der Jade Hochschule" target="_blank" rel="noopener"> Open-Access-Policy </a> der Jade Hochschule wurde 2019 durch den Senat bestätigt.</p><p /><h2>III. Veröffentlichungen im Repositorium</h2><p>Personen, deren Wirken in Zusammenhang mit der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth steht, können in einem akzeptierten Dateiformat vorliegende Publikationen in das Repositorium einbringen. Folgende Arten elektronischer Dokumente werden gespeichert:</p><ul>
+<li>Dokumente von Studierenden der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth wie Bachelor- und Masterarbeiten,</li>
+<li>Publikationen von Mitarbeitenden der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth</li>
+<li>durch Mtiarbeitende der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth herausgegebene Publikationen und Publikationsreihen wie Sammelwerke, Kongressbände, Forschungsberichte oder E-Journals,</li>
+<li>Publikationen und Publikationsreihen von mit der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth assoziierten Einrichtungen und Personen, Dokumente, deren Veröffentlichung durch die jeweilige Prüfungsordnung vorgeschrieben ist, wie Dissertationen und Habilitationsschriften,</li>
+<li>Publikationen begleitend zu Veranstaltungen und Präsentationen, wie beispielsweise Präsentationsfolien.</li>
+</ul><p>Bitte beachten Sie die <a href="https://dms.jade-hs.de/d.web/download?Q4=P000034372" title="Publikations- und Affiliationsrichtlinie" target="_blank" rel="noopener"> Publikations- und Affiliationsrichtlinie </a> der Jade Hochschule. </p><p /><h2>IV. Anforderungen an elektronische Dokumente</h2><ul>
+<li>Das Dokument ist kein sich dynamisch veränderndes Dokument. Sind Veränderungen notwendig, wird das geänderte Dokument als neue Version gespeichert. Bereits publizierte Dokumente werden nicht gelöscht oder verändert, es sei denn, es liegen schwerwiegende rechtliche Gründe vor.</li>
+<li>Das elektronische Dokument basiert auf Text, Grafik, Audio- oder Videosequenzen oder sonstigen Daten. Es ist in digitaler Form auf einem Datenträger gespeichert und wird über Rechnernetze verbreitet. oktoPUS unterstützt alle Dateiformate, empfiehlt jedoch die Nutzung offener Formate, die zur langfristigen Archivierung geeignet sind und über frei zugängliche Darstellungsprogramme angezeigt werden können (z. B. PDF/A, TeX, XML). Ergänzend kann auch das Originalformat des Dokuments archiviert werden.</li>
+<li>Das Dokument muss frei sein von jeglichen technischen Schutzvorrichtungen und Verfahren des Digitalen Rechtemanagements (DRM). Formatmigrationen werden bei Bedarf vorgenommen, um z. B. die langfristige Verfügbarkeit zu gewährleisten. Formatmigrationen gelten nicht als Veränderung des Dokuments. Es gibt keine Layout-Vorgaben.</li>
+</ul><p><span style="font-family: arial, helvetica, sans-serif;"> <strong> </strong></span><strong> </strong></p><h2><span style="font-family: arial, helvetica, sans-serif;">V. Veröffentlichungswege</span></h2><p>Für Mitglieder und Angehörige mit Hochschullogin steht ein Formular zum Hochladen von Dokumenten und der zugehörigen Metadaten zur Verfügung. Alternativ kann ein PDF-Formular zum Versand per E-Mail verwendet werden.</p><ul>
+<li><a href="https://jadehs-test.gbv.de/servlets/MCRActionMappingServlet/mods/create" target="_blank" rel="noopener" />PDF-Formular zum Versand per E-Mail (Mitarbeitende)  <span style="background-color: #fbeeb8;">[Link einfügen]</span></li>
+<li>PDF-Formular zum Versand per E-Mail (Studierende)  <span style="background-color: #fbeeb8;">[Link einfügen]</span><span style="background-color: #fbeeb8;" /></li>
+</ul><p>Die Dokumente werden durch die Hochschulbibliothek geprüft und nach Eingang der Einwilligung der Veröffentlichung freigeschaltet und damit veröffentlicht.</p><p /><h2><span style="font-family: arial, helvetica, sans-serif;">VI. Rechtliche Rahmenbedingungen</span></h2><p> Die Autor_innen übertragen der Hochschulbibliothek ein einfaches und unbefristetes Recht. Die Urheberrechte der Autor_innen bleiben gewahrt. Eine Publikation in oktoPUS steht einer weiteren Veröffentlichung (z. B. in Fachzeitschriften oder auf anderen Servern) nicht entgegen. Umgekehrt werden auch Zweitveröffentlichungen akzeptiert, sofern rechtliche oder vertragliche Regelungen dies zulassen.</p><p>Die Rechteübertragung bedarf grundsätzlich der Schriftform.</p><ul>
+<li>PDF-Formular zum Versand per E-Mail (Mitarbeitende)  <span style="background-color: #fbeeb8;">[Link einfügen]</span></li>
+<li>PDF-Formular zum Versand per E-Mail (Studierende)  <span style="background-color: #fbeeb8;">[Link einfügen]</span><span style="background-color: #fbeeb8;" /></li>
+</ul><p>Bitte beachten Sie unsere <a href="https://reposis-test.gbv.de/jadehs/content/publish/contract.xml" title="Nutzungsbedingungen" target="_blank" rel="noopener"> Nutzungsbedingungen</a>.</p><p /><h2><span style="font-family: arial, helvetica, sans-serif;">VII. Sonstiges</span></h2><p>Die Hochschulbibliothek bietet Beratung und Unterstützung bei allen Fragen zum Publizieren auf <em>oktoPUS </em>an. Sie vergibt dauerhafte persistente und zitierfähige Identifier (DOI), um die Dokumente langfristig zugänglich und auffindbar zu machen. Sie unterstützt sowohl bei der formalen als auch inhaltlichen Erschließung der Dokumente und übernimmt die Prüfung und Pflege der Metadaten.</p><p>Die Metadaten der Dokumente und deren Link zum Volltext werden im Katalog der Hochschulbibliothek und in anderen Katalogen öffentlich-rechtlicher Einrichtungen nachgewiesen. Im Rahmen der gesetzlich geregelten Pflichtabgabe von Netzpublikationen erfolgt die Weitergabe der Metadaten sowie der elektronischen Dokumente an die Deutsche Nationalbibliothek.</p><p>Die Hochschulbibliothek garantiert für elektronische Publikationen einen Archivierungszeitraum von mindestens fünf Jahren. Für Dokumente, die der gesetzlich geregelten Pflichtabgabe unterliegen, werden die Anforderungen an eine Langzeitarchivierung durch Ablieferung an die Deutsche Nationalbibliothek erfüllt.</p></section><meta><log lastEditor="cboss" date="2026-04-17" time="15:15" /></meta></MyCoReWebPage>

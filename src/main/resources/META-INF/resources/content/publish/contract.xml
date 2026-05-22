@@ -1,93 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Nutzungsbedingungen">
-    <head>
+<MyCoReWebPage><section xml:lang="de" title="Nutzungsbedingungen"><head>
       <meta name="title" content="Vertragsbedingungen" />
       <meta name="description" content="Vertragsbedingungen für Veröffentlichungen auf dem Publikationsserver" />
-    </head>
-    <h1>Nutzungsbedingungen </h1>
-    <p />
-    <ol>
-      <li>
-        <p>
-          <a href="http://creativecommons.org/licenses/?lang=de" />Autor_innen übertragen der Hochschulbibliothek der
-          Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth das einfache, zeitlich unbefristete Nutzungsrecht, die oben
-          genannte Publikation auf ihren Servern zu vervielfältigen, zu speichern, öffentlich zugänglich zu machen und
-          auf Einzelabruf in Datennetzen zu übertragen. Die Rechte zur Verwertung in anderer Form bleiben hiervon
-          unberührt. Die Hochschulbibliothek verfolgt mit der Veröffentlichung keine wirtschaftlichen Interessen.
-          Autor_innen erhalten keine Vergütung.
-        </p>
-      </li>
-      <li>
-        <p>
-          Autor_innen versichern, berechtigt zu sein, über die urheberrechtlichen Nutzungsrechte am Werk zu verfügen
-          und versichern ferner – auch im Namen eventueller Miturheber_innen –, dass Rechte Dritter mit einer derartigen
-          Veröffentlichung nicht verletzt werden. Dies schließt auch die ggf. im vorliegenden Werk enthaltenen
-          Abbildungen oder Multimedia-Elemente (z.B. Fotos, Grafikelemente) ein. Gutachter_innen von
-          Qualifikationsarbeiten können gemäß Art. 21 Abs. 1 DSGVO der Verarbeitung ihrer personenbezogenen Daten
-          widersprechen.
-        </p>
-      </li>
-      <li>
-        <p>
-          Die Verantwortung für die Vermeidung von Interessenskonflikten liegt beim Inhaber bzw. der Inhaberin der
-          Verwertungsrechte und nicht bei der Hochschulbibliothek.
-        </p>
-      </li>
-      <li>
-        <p>
-          Autor_innen übernehmen für die von ihnen eingestellten Inhalte die volle Verantwortung und versichern, dass
-          die von ihnen verbreiteten Dokumente wissenschaftlichen Charakter haben, insbesondere keine Gewalt
-          verherrlichenden, volksverhetzenden oder pornografischen Inhalte aufweisen, nicht zu Straftaten anleiten oder
-          das Persönlichkeitsrecht Dritter verletzen.
-        </p>
-      </li>
-      <li>
-        <p>
-          Die Hochschulbibliothek behält sich das Recht vor, den öffentlichen Zugriff auf eine Publikation zu sperren,
-          sofern konkrete Anhaltspunkte für eine Rechtsverletzung bestehen. Die Hochschulbibliothek haftet nicht für aus
-          der Verletzung von Urheber- und Verwertungsrechten resultierende Schäden, sofern kein nachweislich
-          vorsätzliches oder grob fahrlässiges Verschulden ihrerseits vorliegt. Die Autor_innen versichern, in
-          Zweifelsfällen oder bei Entstehen vermeintlicher oder tatsächlicher Rechtsverletzungen die Hochschulbibliothek
-          hiervon unverzüglich in Kenntnis zu setzen.
-        </p>
-      </li>
-      <li>
-        <p>
-          Die Hochschulbibliothek gewährleistet, dass Volltexte nach der Veröffentlichung für mindestens 5 Jahre mit
-          einer dauerhaft stabilen und zitierfähigen Internetadresse (DOI) auf der Plattform verfügbar sind.
-        </p>
-      </li>
-      <li>
-        <p>
-          Die Metadaten der Dokumente und deren Link zum Volltext werden im Katalog der Hochschul-bibliothek und in
-          anderen Katalogen öffentlich-rechtlicher Einrichtungen nachgewiesen. Im Rahmen der gesetzlich geregelten
-          Pflichtabgabe von Netzpublikationen erfolgt die Weitergabe der Metadaten sowie der elektronischen Dokumente an
-          die Deutsche Nationalbibliothek.
-        </p>
-      </li>
-      <li>
-        <p>
-          Der Hochschulbibliothek ist es gestattet, insbesondere zum Zwecke der Langzeitarchivierung die Dokumente in
-          andere Dateiformate zu konvertieren oder anderweitig technisch zu verändern.
-        </p>
-      </li>
-      <li>
-        <p>
-          Die Hochschulbibliothek übernimmt keine Haftung für den Fall, dass von dritter Seite die Publikation
-          unrechtmäßig heruntergeladen, verändert oder an anderer Stelle ohne Einwilligung der Autorin/des Autors
-          aufgelegt wird.
-        </p>
-      </li>
-      <li>
-        <p>
-          Die Rücknahme der Veröffentlichung seitens der Autor_innen ist nur unter Berufung auf § 42 UrhG (Werk
-          entspricht nicht mehr der Überzeugung des Urhebers) möglich.
-        </p>
-      </li>
-    </ol>
-  </section>
-  <meta>
-    <log lastEditor="cboss" date="2026-01-20" time="11:27" />
-  </meta>
-</MyCoReWebPage>
+    </head><h1>Nutzungsbedingungen </h1><p /><ol>
+<li>
+<p>Autor_innen übertragen der Hochschulbibliothek der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth das einfache, zeitlich unbefristete Recht, die oben genannte Publikation auf ihren Servern zu vervielfältigen, zu speichern, öffentlich zugänglich zu machen und auf Einzelabruf in Datennetzen zu übertragen. Die Rechte zur Verwertung in anderer Form bleiben hiervon unberührt. Die Hochschulbibliothek verfolgt mit der Veröffentlichung keine wirtschaftlichen Interessen. Autor_innen erhalten keine Vergütung. </p>
+</li>
+<li>
+<p>Autor_innen versichern, berechtigt zu sein, über die urheberrechtlichen Nutzungsrechte am Werk zu verfügen und versichern ferner – auch im Namen eventueller Miturheber_innen –, dass Rechte Dritter mit einer derartigen Veröffentlichung nicht verletzt werden. Dies schließt auch die ggf. im vorliegenden Werk enthaltenen Abbildungen oder Multimedia-Elemente (z.B. Fotos, Grafikelemente) ein. Gutachter_innen von Qualifikationsarbeiten können gemäß Art. 21 Abs. 1 DSGVO der Verarbeitung ihrer personenbezogenen Daten widersprechen.</p>
+</li>
+<li>
+<p>Die Verantwortung für die Vermeidung von Interessenskonflikten liegt beim Autor bzw. der Autorin der Verwertungsrechte und nicht bei der Hochschulbibliothek.</p>
+</li>
+<li>
+<p>Autor_innen übernehmen für die von ihnen eingestellten Inhalte die volle Verantwortung und versichern, dass die von ihnen verbreiteten Dokumente wissenschaftlichen Charakter haben, insbesondere keine Gewalt verherrlichenden, volksverhetzenden oder pornografischen Inhalte aufweisen, nicht zu Straftaten anleiten oder das Persönlichkeitsrecht Dritter verletzen.</p>
+</li>
+<li>
+<p>Die Hochschulbibliothek behält sich das Recht vor, den öffentlichen Zugriff auf eine Publikation zu sperren, sofern konkrete Anhaltspunkte für eine Rechtsverletzung bestehen. Die Hochschulbibliothek haftet nicht für aus der Verletzung von Urheber- und Verwertungsrechten resultierende Schäden, sofern kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden ihrerseits vorliegt. Die Autor_innen versichern, in Zweifelsfällen oder bei Entstehen vermeintlicher oder tatsächlicher Rechtsverletzungen die Hochschulbibliothek hiervon unverzüglich in Kenntnis zu setzen. Die Autor_innen stellen die Hochschule gegenüber Dritten von sämtlicher HAftung aus der Verletzung von Urheberrechten frei.</p>
+</li>
+<li>
+<p>Die Hochschulbibliothek gewährleistet, dass Volltexte nach der Veröffentlichung für mindestens 5 Jahre mit einer dauerhaft stabilen und zitierfähigen Internetadresse (DOI) auf der Plattform verfügbar sind.</p>
+</li>
+<li>
+<p>Die Metadaten der Dokumente und deren Link zum Volltext werden im Katalog der Hochschul-bibliothek und in anderen Katalogen öffentlich-rechtlicher Einrichtungen nachgewiesen. Im Rahmen der gesetzlich geregelten Pflichtabgabe von Netzpublikationen erfolgt die Weitergabe der Metadaten sowie der elektronischen Dokumente an die Deutsche Nationalbibliothek.</p>
+</li>
+<li>
+<p>Der Hochschulbibliothek ist es gestattet, insbesondere zum Zwecke der Langzeitarchivierung die Dokumente in andere Dateiformate zu konvertieren oder anderweitig technisch zu verändern.</p>
+</li>
+<li>
+<p>Die Hochschulbibliothek übernimmt keine Haftung für den Fall, dass von dritter Seite die Publikation unrechtmäßig heruntergeladen, verändert oder an anderer Stelle ohne Einwilligung der Autorin/des Autors aufgelegt wird.</p>
+</li>
+<li>
+<p>Die Rücknahme der Veröffentlichung seitens der Autor_innen ist nur unter Berufung auf § 42 UrhG (Werk entspricht nicht mehr der Überzeugung des Urhebers) möglich.</p>
+</li>
+</ol></section><meta><log lastEditor="cboss" date="2026-03-27" time="15:15" /></meta></MyCoReWebPage>
