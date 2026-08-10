@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass
+  ID="jadehs_courses"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="MCRClassification.xsd">
+  <label xml:lang="de" text="Studiengang" description="Liste der Studiengänge" />
+  <label xml:lang="en" text="course" description="List of courses" />
+  <label xml:lang="x-uri" text="https://oktopus.jade-hs.de/api/v2/classifications/jadehs_courses" />
+  <categories>
+    <category ID="ads">
+      <label xml:lang="de" text="Applied Data Science" />
+      <label xml:lang="en" text="Applied Data Science" />
+    </category>
+    <category ID="ang">
+      <label xml:lang="de" text="Angewandte Geodäsie" />
+      <label xml:lang="en" text="Applied Geodesy" />
+    </category>
+    <category ID="anp">
+      <label xml:lang="de" text="Angewandte Pflegewissenschaft" />
+      <label xml:lang="en" text="Applied Care Management" />
+    </category>
+    <category ID="arc">
+      <label xml:lang="de" text="Architektur" />
+      <label xml:lang="en" text="Architecture" />
+    </category>
+    <category ID="biw">
+      <label xml:lang="de" text="Bauingenieurwesen" />
+      <label xml:lang="en" text="Civil Engineering" />
+    </category>
+    <category ID="bvw">
+      <label xml:lang="de" text="Bank- und Versicherungswirtschaft" />
+      <label xml:lang="en" text="Banking and Insurance Industry" />
+    </category>
+    <category ID="elt">
+      <label xml:lang="de" text="Elektrotechnik" />
+      <label xml:lang="en" text="Electrical Engineering" />
+    </category>
+    <category ID="fmi">
+      <label xml:lang="de" text="Facility Management und Immobilienwirtschaft" />
+      <label xml:lang="en" text="Facility Management and Property Management Studies" />
+    </category>
+    <category ID="gin">
+      <label xml:lang="de" text="Geoinformatik" />
+      <label xml:lang="en" text="Geoinformatics" />
+    </category>
+    <category ID="giw">
+      <label xml:lang="de" text="Geoinformationswissenschaften" />
+      <label xml:lang="en" text="Geoinformation Sciences" />
+    </category>
+    <category ID="heb">
+      <label xml:lang="de" text="Hebammenwissenschaft" />
+      <label xml:lang="en" text="Midwifery" />
+    </category>
+    <category ID="hua">
+      <label xml:lang="de" text="Hörtechnik und Audiologie" />
+      <label xml:lang="en" text="Audiometry and Audiology" />
+    </category>
+    <category ID="ibs">
+      <label xml:lang="de" text="International Business Studies" />
+      <label xml:lang="en" text="International Business Studies" />
+    </category>
+    <category ID="iin">
+      <label xml:lang="de" text="Ingenieurinformatik" />
+      <label xml:lang="en" text="Computer Science for Engineering Applications (M.Sc.)" />
+    </category>
+    <category ID="ilm">
+      <label xml:lang="de" text="Internationales Logistikmanagement" />
+      <label xml:lang="en" text="International Logistics Management" />
+    </category>
+    <category ID="imm">
+      <label xml:lang="de" text="International Maritime Management" />
+      <label xml:lang="en" text="International Maritime Management" />
+    </category>
+    <category ID="itm">
+      <label xml:lang="de" text="Internationales Tourismusmanagement" />
+      <label xml:lang="en" text="International Tourism Management" />
+    </category>
+    <category ID="log">
+      <label xml:lang="de" text="Logopädie" />
+      <label xml:lang="en" text="Speech Therapy" />
+    </category>
+    <category ID="mas">
+      <label xml:lang="de" text="Maschinenbau" />
+      <label xml:lang="en" text="Mechanical Engineering" />
+    </category>
+    <category ID="mdm">
+      <label xml:lang="de" text="Management digitaler Medien" />
+      <label xml:lang="en" text="Management of Digital Media" />
+    </category>
+    <category ID="meb">
+      <label xml:lang="de" text="Management und Engineering im Bauwesen" />
+      <label xml:lang="en" text="Management and Engineering in the Building Industry" />
+    </category>
+    <category ID="mec">
+      <label xml:lang="de" text="Mechatronik" />
+      <label xml:lang="en" text="Mechatronics" />
+    </category>
+    <category ID="med">
+      <label xml:lang="de" text="Medizintechnik" />
+      <label xml:lang="en" text="Medical Technology" />
+    </category>
+    <category ID="mee">
+      <label xml:lang="de" text="Meerestechnik" />
+      <label xml:lang="en" text="Marine Technology" />
+    </category>
+    <category ID="mgs">
+      <label xml:lang="de" text="Management in der Gesundheits- und Sozialwirtschaft" />
+      <label xml:lang="en" text="Management in Healthcare and Social Economy" />
+    </category>
+    <category ID="mm">
+      <label xml:lang="de" text="Maritime Management" />
+      <label xml:lang="en" text="Maritime Management" />
+    </category>
+    <category ID="mwj">
+      <label xml:lang="de" text="Medienwirtschaft und Journalismus" />
+      <label xml:lang="en" text="Media Management and Journalism" />
+    </category>
+    <category ID="nam">
+      <label xml:lang="de" text="Nachhaltigkeitsmanagement" />
+      <label xml:lang="en" text="Nachhaltigkeitsmanagement" />
+    </category>
+    <category ID="nus">
+      <label xml:lang="de" text="Nautik und Seeverkehr" />
+      <label xml:lang="en" text="Nautical and Maritime Transport" />
+    </category>
+    <category ID="obw">
+      <label xml:lang="de" text="Online-Studiengang Betriebswirtschaftslehre" />
+      <label xml:lang="en" text="Online Course Business Administration" />
+    </category>
+    <category ID="other">
+      <label xml:lang="de" text="Andere" />
+      <label xml:lang="en" text="Other" />
+    </category>
+    <category ID="otm">
+      <label xml:lang="de" text="Online-Studiengang Tourismusmanagement" />
+      <label xml:lang="en" text="Online Course Tourism Management" />
+    </category>
+    <category ID="owi">
+      <label xml:lang="de" text="Online-Studiengang Wirtschaftsingenieurwesen" />
+      <label xml:lang="en" text="Online Course Engineering and Management" />
+    </category>
+    <category ID="piw">
+      <label xml:lang="de" text="Projektingenieurwesen" />
+      <label xml:lang="en" text="Project Engineering" />
+    </category>
+    <category ID="puh">
+      <label xml:lang="de" text="Public Health" />
+      <label xml:lang="en" text="Public Health" />
+    </category>
+    <category ID="rau">
+      <label xml:lang="de" text="Raumplanung" />
+      <label xml:lang="en" text="Spatial Planning" />
+    </category>
+    <category ID="sch">
+      <label xml:lang="de" text="Schiffs- und Hafenbetrieb" />
+      <label xml:lang="en" text="Shipping and Port Operations" />
+    </category>
+    <category ID="sdc">
+      <label xml:lang="de" text="Steuern, Digitale Wirtschaft und Consulting" />
+      <label xml:lang="en" text="Tax, Digital Economy and Consulting" />
+    </category>
+    <category ID="see">
+      <label xml:lang="de" text="Seeverkehrs- und Hafenwirtschaft" />
+      <label xml:lang="en" text="Marine Transport and Harbour Administration" />
+    </category>
+    <category ID="soz">
+      <label xml:lang="de" text="Soziale Arbeit" />
+      <label xml:lang="en" text="Social Work" />
+    </category>
+    <category ID="stm">
+      <label xml:lang="de" text="Strategisches Management" />
+      <label xml:lang="en" text="Strategic Management" />
+    </category>
+    <category ID="tom">
+      <label xml:lang="de" text="Tourismusmanagement" />
+      <label xml:lang="en" text="Tourism Management" />
+    </category>
+    <category ID="uib">
+      <label xml:lang="de" text="Umweltingenieurwesen-Bau" />
+      <label xml:lang="en" text="Environmental Civil Engineering" />
+    </category>
+    <category ID="urd">
+      <label xml:lang="de" text="Urban Design" />
+      <label xml:lang="en" text="Urban Design" />
+    </category>
+    <category ID="uxr">
+      <label xml:lang="de" text="UX/XR - Usability und Digitale Welten" />
+      <label xml:lang="en" text="UX/XR - Usability und Digitale Welten" />
+    </category>
+    <category ID="wib">
+      <label xml:lang="de" text="Wirtschaftsingenieurwesen - Bauwirtschaft" />
+      <label xml:lang="en" text="Industrial Engineering - Building Industry" />
+    </category>
+    <category ID="wig">
+      <label xml:lang="de" text="Wirtschaftsingenieurwesen - Geoinformation" />
+      <label xml:lang="en" text="Industrial Engineering - Geoinformation" />
+    </category>
+    <category ID="win">
+      <label xml:lang="de" text="Wirtschaftsinformatik" />
+      <label xml:lang="en" text="Business Informatics" />
+    </category>
+    <category ID="wir">
+      <label xml:lang="de" text="Wirtschaft" />
+      <label xml:lang="en" text="Economics" />
+    </category>
+    <category ID="wiw">
+      <label xml:lang="de" text="Wirtschaftsingenieurwesen" />
+      <label xml:lang="en" text="Industrial Engineering" />
+    </category>
+  </categories>
+</mycoreclass>
