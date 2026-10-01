@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Barrierefreiheitserklärung">
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h1>Erklärung zur Barrierefreiheit</h1>
+        <h2>Zugang für alle</h2>
+        <h3>Wie barrierefrei ist unsere Internet-Seite?</h3>
+        <p>Wir sind eine Hochschule im Bundesland Niedersachsen.</p>
+        <p>Dieser Text ist unsere Erklärung zur Barrierefreiheit.</p>
+        <p>In dieser Erklärung zur Barrierefreiheit steht:</p>
+        <ul>
+          <li>Was ist schon barrierefrei?</li>
+          <li>Was ist nicht barrierefrei?</li>
+          <li>Wo können Sie sich bei Problemen beschweren?</li>
+        </ul>
+        <p>Die Erklärung gilt für die Internet-Seite: <a
+           href="https://oktopus.jade-hs.de">oktopus.jade-hs.de</a>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h2>Wie haben wir die Barrierefreiheit geprüft?</h2>
+        <p>Wir haben die Barrierefreiheit noch nicht geprüft.</p>
+        <p>Auf dieser Internet-Seite ist noch nicht alles barrierefrei.</p>
+        <p>Das wollen wir bald ändern.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h2>Was ist noch nicht barrierefrei?</h2>
+        <p>Viele PDF-Dateien sind nicht barrierefrei.</p>
+        <p>Das heißt:<br />
+          Diese PDF-Dateien lassen sich nicht mit einem
+          Vorlese-Programm vorlesen.</p>
+        <p>Vorlese-Programme sprechen einige Wörter falsch aus.<br />
+          Das gilt für einige Wörter in unseren Texten aus anderen Sprachen.</p>
+        <p>Es fehlen Videos in Deutscher Gebärdensprache.<br />
+          Unsere Videos sind nicht barrierefrei: </p>
+        <ul>
+          <li>Unsere Videos haben keine Untertitel.<br />
+            Das heißt:<br />
+            Im Video gibt es keinen Text von dem, was im Video gesagt wird.</li>
+          <li>Es gibt die Texte aus unseren Videos nicht zum Nachlesen auf
+            unserer Internet-Seite.</li>
+          <li>In unseren Videos gibt es keine Erklärungen für blinde Menschen.
+            Diese Erklärungen sollen beschreiben, was im Video passiert.</li>
+        </ul>
+        <p>Dieser Text ist vom 21. August 2026.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h2>Kontakt</h2>
+        <p>Haben Sie Probleme oder Barrieren auf der Internet-Seite gefunden?<br />
+          Oder möchten Sie mehr zur Barrierefreiheit auf unserer Internet-Seite
+          wissen?<br /><br />
+          Dann schreiben Sie uns.<br />
+          Adresse:
+        </p>
+        <p>Jade Hochschule Wilhelmshaven, Oldenburg Elsfleth<br />
+          Hochschulbibliothek<br />
+          Friedrich-Paffrath-Str. 101<br />
+          D- 26389 Wilhelmshaven<br />
+          E-Mail: <span class="madress">publikationen-bib [at] jade-hs.de</span>
+        </p>
+        <h3>Hilfe bei Problemen mit der Barrierefreiheit</h3>
+        <p>Vielleicht haben Sie sich bei uns über Barrieren auf unserer
+          Internet-Seite beschwert.<br />
+          Hat es keine gute Lösung für Ihre Beschwerde gegeben?<br /><br />
+          Dann können Sie sich weiter beschweren.<br />
+          Dafür gibt es eine Beschwerde-Stelle.<br />
+          Die Beschwerde-Stelle heißt:<br />
+          Die Landesbeauftragte für Menschen mit Behinderungen</p>
+        <p>
+          Die Schlichtungsstelle kümmert sich bei Streit zwischen:</p>
+        <ul>
+          <li>Menschen mit Behinderung und</li>
+          <li>öffentlichen Stellen des Bundes.<br />
+            Das sind zum Beispiel:
+            <ul>
+              <li>Ministerien</li>
+              <li>einige Stiftungen</li>
+              <li>die Bundesagentur für Arbeit</li>
+            </ul>
+          </li>
+        </ul>
+        <p>Die Schlichtungsstelle sucht eine Lösung.<br />
+          Dann muss man mit dem Streit nicht vor Gericht gehen.<br />
+          Sie müssen nichts für die Beschwerde-Stelle bezahlen.<br />
+          Sie brauchen keinen Anwalt.</p>
+        <p>Mehr Infos stehen auf der Internet-Seite der Schlichtungsstelle: <a
+          href="http://www.behindertenbeauftragter-niedersachsen.de/"
+          >behindertenbeauftragter-niedersachsen.de</a><br /> Zum Beispiel:</p>
+        <ul>
+          <li>Was passiert bei einer Beschwerde?</li>
+          <li>Wie können Sie einen Antrag stellen?</li>
+          <li>Wie können Sie den Antrag in Leichter Sprache oder in
+            Gebärdensprache stellen?</li>
+        </ul>
+
+        <h3>Wie erreichen Sie die Schlichtungsstelle?</h3>
+        <p>Adresse:
+        </p>
+        <p>Die Landesbeauftragte für Menschen mit Behinderungen<br />
+          Schlichtungsstelle<br /> Hannah-Arendt-Platz 2<br /> 30159 Hannover<br />
+          Telefon: 0511/120-4007<br /> Fax: 0511/120-99-4036<br /> E-Mail: <span
+            class="madress">Landesbeauftragte [at] ms.niedersachsen.de</span><br />
+          Internet: <a
+            href="http://www.behindertenbeauftragter-niedersachsen.de/">
+          behindertenbeauftragter-niedersachsen.de</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="en" title="Barriefreiheitserklärung">
+    <h1>Easy-to-read Accessibility</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi
+      tincidunt ornare massa eget egestas purus viverra. Vitae purus faucibus
+      ornare suspendisse sed nisi lacus. Erat velit scelerisque in dictum non
+      consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in
+      eu mi bibendum neque. At erat pellentesque adipiscing commodo elit at
+      imperdiet dui. Ut porttitor leo a diam. Gravida cum sociis natoque
+      penatibus et magnis dis parturient montes. Mollis nunc sed id semper risus
+      in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et
+      ligula ullamcorper malesuada proin libero nunc. Felis donec et odio
+      pellentesque. Quis ipsum suspendisse ultrices gravida dictum. Amet dictum
+      sit amet justo donec enim diam vulputate ut. Consequat ac felis donec et
+      odio pellentesque diam.</p>
+  </section>
+  <meta>
+    <log lastEditor="cboss" date="2026-08-21" time="10:28" />
+  </meta>
+</MyCoReWebPage>

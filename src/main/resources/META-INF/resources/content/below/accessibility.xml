@@ -1,7 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage><section xml:lang="de" title="Barrierefreiheitserklärung"><div class="row">
-<div class="col-md-12" lang="de">
-<h1>Erklärung zur Barrierefreiheit</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut. Consequat ac felis donec et odio pellentesque diam.</p>
-</div>
-</div></section><section xml:lang="en" title="Barriefreiheitserklärung"><h1>Accessibility</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Vitae purus faucibus ornare suspendisse sed nisi lacus. Erat velit scelerisque in dictum non consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in eu mi bibendum neque. At erat pellentesque adipiscing commodo elit at imperdiet dui. Ut porttitor leo a diam. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Mollis nunc sed id semper risus in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et ligula ullamcorper malesuada proin libero nunc. Felis donec et odio pellentesque. Quis ipsum suspendisse ultrices gravida dictum. Amet dictum sit amet justo donec enim diam vulputate ut. Consequat ac felis donec et odio pellentesque diam.</p></section><meta><log lastEditor="cboss" date="2026-05-08" time="10:28" /></meta></MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="de" title="Barrierefreiheitserklärung">
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h1>Erklärung zur Barrierefreiheit</h1>
+        <p>Die Hochschulbibliothek der Jade Hochschule
+          Wilhelmshaven/Oldenburg/Elsfleth ist bemüht, ihren Publikationsserver
+          oktoPUS im Einklang mit den Niedersächsisches
+          Behindertengleichstellungsgesetz (NBGG) zur Umsetzung der
+          EU-Richtlinie 2016/2102 des Europäischen Parlaments und des Rates
+          barrierefrei zugänglich zu machen.
+        </p>
+        <p>
+          oktoPUS ist das institutionelle Repositorium der Jade Hochschule
+          Wilhelmshaven/Oldenburg/Elsfleth. Es bietet allen Angehörigen der
+          Hochschule die organisatorischen und technischen Rahmenbedingungen zur
+          zeitnahen elektronischen Veröffentlichung und Speicherung
+          wissenschaftlicher Ergebnisse gemäß den Prinzipen des Open Access. Der
+          technische Betrieb des Publikationsservers erfolgt durch die
+          Hochschulbibliothek in Zusammenarbeit mit der Verbundzentrale des
+          Gemeinsamen Bibliotheksverbundes Göttingen.
+        </p>
+        <p>
+          Diese Erklärung zur Barrierefreiheit gilt für
+          <a href="https://oktopus.jade-hs.de">https://oktopus.jade-hs.de</a>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h2>Wann wurde die Erklärung zur digitalen Barrierefreiheit erstellt?
+        </h2>
+        <p>Diese Erklärung wurde am <strong>21.08.2026</strong> erstellt.
+        </p>
+        <p>
+          Die Umsetzung der Barrierefreiheit für das institutionelle
+          Repositorium oktoPUS befindet sich im Aufbau. Vor diesem Hintergrund
+          wird für dieses Angebot baldmöglichst ein aktualisierter (manueller)
+          Test auf Grundlage des BITV-Tests durchgeführt.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h2>Welche Bereiche sind nicht barrierefrei?
+        </h2>
+        <p>Im Webauftritt eingebundene Dokumente (.pdf, .doc(x), etc.)
+        </p>
+        <p>Die auf dem Publikationsserver veröffentlichten Dokumente sind
+          elektronische Dokumente Dritter, die eventuell nicht vollständig
+          barrierefrei sind und nicht automatisiert in ein barrierefreies Format
+          umgewandelt werden können, da
+        </p>
+        <ul>
+          <li>die Hochschulbibliothek nicht das Recht auf die Änderung der
+            Dateien besitzt,</li>
+          <li>die Ausgangsformate nicht zu Verfügung stehen,</li>
+          <li>die Zitierfähigkeit der Original-Dokumente bei Änderung nicht mehr
+            gewährleistet ist.
+          </li>
+        </ul>
+        <p>Eine nachträgliche manuelle Bearbeitung der Dokumente ist
+          unverhältnismäßig arbeitsaufwendig und wird nur in Ausnahmefällen
+          durchgeführt. </p>
+        <p>
+          Bei neu erscheinenden Dokumenten, die in den Verantwortungsbereich der
+          Hochschulbibliothek der Jade Hochschule fallen, streben wir an, eine
+          barrierefreie Version zur Verfügung zu stellen. Für alle weiteren
+          Dokumente halten wir unsere Datenlieferanten an, die Anforderungen zur
+          Barrierefreiheit zu beachten.
+        </p>
+        <p>Sollten Sie eine bestimmte Datei benötigen, die nicht barrierefrei
+          zur Verfügung steht, so kontaktieren Sie uns bitte unter den weiter
+          unten genannten Kontaktdaten.
+        </p>
+
+        <h3>Im Webauftritt eingebundene Audio- und Videodateien
+        </h3>
+        <p>Audio- und Videodateien sind möglicherweise nicht barrierefrei und
+          können weder über Untertitel noch über Transkriptionen verfügen.</p>
+        <p>
+          Bei neu erscheinenden Dateien, die in den Verantwortungsbereich der
+          Hochschulbibliothek der Jade Hochschule fallen, streben wir an, eine
+          barrierefreie Version zur Verfügung zu stellen. Für alle weiteren
+          Dateien halten wir unsere Datenlieferanten an, die Anforderungen zur
+          Barrierefreiheit zu beachten.
+        </p>
+        <p>Sollten Sie eine bestimmte Datei benötigen, die nicht barrierefrei
+          zur Verfügung steht, so kontaktieren Sie uns bitte unter den weiter
+          unten genannten Kontaktdaten.
+        </p>
+        <h3>Abweichende Sprache einzelner Wörter oder Abschnitte nicht
+          ausgezeichnet
+        </h3>
+        <p>Anderssprachige Wörter und Abschnitte sind nicht mit lang-Attributen
+          ausgezeichnet.
+        </p>
+
+        <h3>Inhalte nicht in Leichter oder Gebärdensprache verfügbar
+        </h3>
+        <p>Sämtliche Inhalte von oktoPUS stehen nicht in Leichter oder
+          Gebärdensprache zur Verfügung.</p>
+        <p>
+          Aufgrund seines ausschließlich wissenschaftlichen Zielpublikums ist
+          die Übersetzung der Inhalte von oktoPUS in Leichte Sprache
+          verzichtbar. Mit Blick auf Umfang und Komplexität der ausschließlich
+          wissenschaftlichen Inhalte von oktoPUS ist deren rückwirkende
+          Übersetzung in Gebärdensprache gemäß § 12a Abs. 6 BGG als
+          unverhältnismäßig arbeitsaufwendig zu werten.
+        </p>
+        <p>Eine Erläuterung der wesentlichen Inhalte dieser Erklärung finden Sie
+          auch in <a href="easy-to-read_accessibility.xml">Leichter Sprache</a>.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" lang="de">
+        <h2>Wen können Sie bei Anmerkungen oder Rückfragen zur digitalen
+          Barrierefreiheit kontaktieren?
+        </h2>
+        <p>Sollten Sie der Ansicht sein, durch eine nicht ausreichende
+          barrierefreie Gestaltung von https://oktopus.jade-hs.de benachteiligt
+          zu sein oder sind Ihnen Mängel beim barrierefreien Zugang zu Inhalten
+          von <a href="https://oktopus.jade-hs.de">https://oktopus.jade-hs.de</a>
+          aufgefallen? Dann können Sie sich gerne bei uns melden. Unsere Kontaktdaten
+          lauten:
+        </p>
+        <p>Jade Hochschule Wilhelmshaven, Oldenburg Elsfleth<br />
+          Hochschulbibliothek<br />
+          Friedrich-Paffrath-Str. 101<br />
+          D- 26389
+          Wilhelmshaven<br />
+          E-Mail: <span class="madress">publikationen-bib [at] jade-hs.de</span>
+        </p>
+        <h3>Kontakt zur Schlichtungsstelle
+        </h3>
+        <p>Bei der Landesbeauftragten für Menschen mit Behinderungen in
+          Niedersachsen gibt es eine Schlichtungsstelle. Die Schlichtungsstelle
+          hat die Aufgabe, Konflikte zwischen Menschen mit Behinderung und
+          öffentlichen Stellen des Landes zu lösen. Sie können die
+          Schlichtungsstelle. einschalten, wenn Sie mit den Antworten aus der
+          oben genannten Kontaktmöglichkeit nicht zufrieden sind. Dabei geht es
+          darum, mit Hilfe der Schlichtungsstelle gemeinsam und außergerichtlich
+          eine Lösung für ein Problem zu finden. Das Schlichtungsverfahren ist
+          kostenlos. Sie brauchen keinen Rechtsbeistand. Auf der Internet-Seite
+          der Landesbeauftragten für Menschen mit Behinderung finden Sie weitere
+          Informationen zum Schlichtungsverfahren.
+        </p>
+        <p>Sie erreichen die Schlichtungsstelle auch unter folgender Adresse:
+        </p>
+        <p>Die Landesbeauftragte für Menschen mit Behinderungen<br />
+          Schlichtungsstelle<br />
+          Hannah-Arendt-Platz 2<br />
+          30159 Hannover<br />
+          Telefon: 0511/120-4007<br />
+          Fax: 0511/120-99-4036<br />
+          E-Mail: <span class="madress">Landesbeauftragte [at] ms.niedersachsen.de</span><br />
+          Internet: <a href="http://www.behindertenbeauftragter-niedersachsen.de/"
+          >http://www.behindertenbeauftragter-niedersachsen.de/</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section xml:lang="en" title="Barriefreiheitserklärung">
+    <h1>Accessibility</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ullamcorper morbi
+      tincidunt ornare massa eget egestas purus viverra. Vitae purus faucibus
+      ornare suspendisse sed nisi lacus. Erat velit scelerisque in dictum non
+      consectetur a erat. Faucibus et molestie ac feugiat sed lectus. Turpis in
+      eu mi bibendum neque. At erat pellentesque adipiscing commodo elit at
+      imperdiet dui. Ut porttitor leo a diam. Gravida cum sociis natoque
+      penatibus et magnis dis parturient montes. Mollis nunc sed id semper risus
+      in hendrerit gravida rutrum. Eget nunc scelerisque viverra mauris. Et
+      ligula ullamcorper malesuada proin libero nunc. Felis donec et odio
+      pellentesque. Quis ipsum suspendisse ultrices gravida dictum. Amet dictum
+      sit amet justo donec enim diam vulputate ut. Consequat ac felis donec et
+      odio pellentesque diam.</p>
+  </section>
+  <meta>
+    <log lastEditor="cboss" date="2026-08-21" time="10:28" />
+  </meta>
+</MyCoReWebPage>
