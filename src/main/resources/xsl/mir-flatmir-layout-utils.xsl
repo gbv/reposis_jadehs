@@ -92,7 +92,7 @@
       </div>
     </div>
     <div id="project_feedback">
-      <a href="mailto:info@example.de">Schreiben Sie uns</a>
+      <a href="mailto:publikationen-bib@jade-hs.de">Schreiben Sie uns</a>
     </div>
   </xsl:template>
 
