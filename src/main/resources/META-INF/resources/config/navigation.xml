@@ -83,34 +83,40 @@
   <menu id="publish" dir="/content/publish">
     <label xml:lang="de">Publizieren</label>
     <label xml:lang="en">Submit Document</label>
-    <item href="/servlets/MCRActionMappingServlet/mods/create" type="extern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Publikation einreichen</label>
-      <label xml:lang="en">Submit publication</label>
-    </item>
-    <item href="/content/publish/guidelines.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Unsere Leitlinien</label>
-      <label xml:lang="en">Guidelines</label>
-    </item>
-    <item href="/content/publish/contract.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Nutzungsbedingungen</label>
-      <label xml:lang="en">Terms &amp; Conditions</label>
-    </item>
-    <item href="/content/publish/author_notes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Tipps für Autor_innen</label>
-      <label xml:lang="en">Notes for authors</label>
-    </item>
+    <group id="publish">
+      <item href="/servlets/MCRActionMappingServlet/mods/create" type="extern" replaceMenu="false" constrainPopUp="false">
+        <label xml:lang="de">Publikation einreichen</label>
+        <label xml:lang="en">Submit publication</label>
+      </item>
+      <item href="/servlets/solr/select?q=createdby:{CurrentUser}" type="extern" replaceMenu="false" constrainPopUp="false">
+        <label xml:lang="de">Meine Publikationen</label>
+        <label xml:lang="en">My publications</label>
+      </item>
+    </group>
+    <group id="publish_admin">
+      <item href="/editor/editor-admins.xed" type="intern" replaceMenu="false" constrainPopUp="false">
+        <label xml:lang="de">Publikation einreichen (Admin)</label>
+        <label xml:lang="en">Submit publication (admin)</label>
+      </item>
+    </group>
+    <group id="publish_info">
+      <item href="/content/publish/guidelines.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <label xml:lang="de">Unsere Leitlinien</label>
+        <label xml:lang="en">Guidelines</label>
+      </item>
+      <item href="/content/publish/contract.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <label xml:lang="de">Nutzungsbedingungen</label>
+        <label xml:lang="en">Terms &amp; Conditions</label>
+      </item>
+      <item href="/content/publish/author_notes.xml" type="intern" replaceMenu="false" constrainPopUp="false">
+        <label xml:lang="de">Tipps für Autor_innen</label>
+        <label xml:lang="en">Notes for authors</label>
+      </item>
+    </group>
   </menu>
   <menu id="user">
     <label xml:lang="de">Nutzermenü</label>
     <label xml:lang="en">User menu</label>
-    <item href="/servlets/MCRActionMappingServlet/mods/create" type="intern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Publizieren</label>
-      <label xml:lang="en">Publish</label>
-    </item>
-    <item href="/servlets/solr/select?q=createdby:{CurrentUser}" type="extern" replaceMenu="false" constrainPopUp="false">
-      <label xml:lang="de">Meine Publikationen</label>
-      <label xml:lang="en">My publications</label>
-    </item>
     <group id="thisuser">
       <item href="/servlets/MCRUserServlet?action=changeMyPassword" type="extern" replaceMenu="false" constrainPopUp="false">
         <label xml:lang="de">Passwort ändern</label>
