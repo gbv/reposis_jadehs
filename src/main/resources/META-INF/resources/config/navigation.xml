@@ -31,7 +31,7 @@
       <label xml:lang="de">Barrierefreiheit</label>
       <label xml:lang="en">Accessibility</label>
     </item>
-    <item href="/content/below/faq.xml" replaceMenu="false" constrainPopUp="false">
+    <item href="/content/publish/author_notes.xml" replaceMenu="false" constrainPopUp="false">
       <label xml:lang="de">FAQ</label>
       <label xml:lang="en">FAQ</label>
     </item>

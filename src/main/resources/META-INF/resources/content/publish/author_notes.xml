@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MyCoReWebPage>
-  <section xml:lang="de" title="Hinweise für Autoren">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Tipps für Autor_innen</h1>
-        <p />
-        <h2>Vor der Einreichung</h2>
-        <ul>
-          <li>
-            Publikationen werden in oktoPUS unter Wahrung des geltenden
-            <a href="https://www.gesetze-im-internet.de/urhg/" title="Deutsches Urheberrecht" target="_blank" rel="noopener">deutschen Urheberrechts</a>
-            veröffentlicht, welches bei den Autor_innen verbleibt. Bitte beachten Sie, vor der Einreichung das
-            Einverständnis etwaiger Ko-Autor_innen einzuholen. Die Einhaltung von Urheber- und Verwertungsrechten
-            Dritter liegt in der Verantwortung der Autor_innen.
-          </li>
-          <li>Im Zuge einer Veröffentlichung werden Sie gebeten, eine Lizenz für Ihre Publikation zu vergeben. <em>
-            oktoPUS</em>verwendet die freien Lizenzen der <a href="https://creativecommons.org/" title="Creative Commons" target="_blank" rel="noopener">
-            Creative Commons
-          </a> (CC). Am besten machen Sie sich vorab mit den Bedingungen der verschiedenen CC-Lizenzen vertraut. Die
-            Hochschulbibliothek empfiehlt, wenn möglich, die Verwendung von CC-BY. Eine Veröffentlichung ohne freie
-            Lizenz kann nur in besonderen Fällen stattfinden.
-          </li>
-          <li>Das elektronische Dokument muss verschiedene technische Voraussetzungen erfüllen. Bitte nehmen Sie vor der
-            Einreichung die <a href="https://reposis-test.gbv.de/jadehs/content/publish/guidelines.xml" title="Leitlinien des Repositoriums oktoPUS" target="_blank" rel="noopener">
-              Leitlinien
-            </a> des Repositoriums zur Kenntnis und bereiten Ihr Dokument entsprechend vor. 
-          </li>
-        </ul>
-        <h2 />
-        <h2>Der Einreichungsprozess</h2>
-        <ul>
-          <li>Wir benötigen Ihre Einwilligung, damit Ihre Publikation über <em>oktoPUS</em> veröffentlicht und im
-            Internet zur Verfügung gestellt werden kann.
-            <ul>
-              <li>Hochschulangehörige mit Logindaten der Hochschule... </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <meta>
-    <log lastEditor="cboss" date="2026-01-23" time="14:19" />
-  </meta>
-</MyCoReWebPage>
+<MyCoReWebPage><section xml:lang="de" title="Hinweise für Autoren"><h1>FAQ</h1><h2>  </h2><h2>Was ist „oktoPUS“? </h2><p>oktoPUS ist das institutionelle Repositorium der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth. Es bietet allen Angehörigen der Hochschule die organisatorischen und technischen Rahmenbedingungen zur zeitnahen elektronischen Veröffentlichung und Speicherung wissenschaftlicher Ergebnisse gemäß den Prinzipen des Open Access.</p><hr /><h2>Welche Werke dürfen in „oktoPUS“ veröffentlicht werden? </h2><ul>
+<li>Dokumente von Studierenden der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth wie Bachelor- und Masterarbeiten</li>
+<li>Publikationen von Mitarbeitenden der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth</li>
+<li>durch Mitarbeitende der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth herausgegebene Publikationen und Publikationsreihen wie Sammelwerke, Kongressbände, Forschungsberichte oder E-Journals</li>
+<li>Publikationen und Publikationsreihen von mit der Jade Hochschule Wilhelmshaven/Oldenburg/Elsfleth assoziierten Einrichtungen und Personen, Dokumente, deren Veröffentlichung durch die jeweilige Prüfungsordnung vorgeschrieben ist, wie Dissertationen und Habilitationsschriften</li>
+<li>Publikationen begleitend zu Veranstaltungen und Präsentationen, wie beispielsweise Präsentationsfolien </li>
+</ul><hr /><h2>Warum über “oktoPUS” publizieren? </h2><ul>
+<li>Das Werk erhält durch das Publizieren über oktoPUS automatisch eine DOI (Digital Object Identifier). Durch diesen digitalen, persistenten Identifikator ist die Publikation dann eindeutig identifizierbar, zitierfähig und durch die verknüpfte Landingpage-URL direkt und langfristig zugänglich.</li>
+<li>Die Publikationen und Daten werden DSGVO-konform verarbeitet und auf Servern in Deutschland gespeichert.</li>
+<li>Durch oktoPUS publizierte Werke werden an die Deutsche Nationalbibliothek weitergegeben und dort auffindbar gemacht.</li>
+<li>Repositorien bieten eine sichere, risikofreie Art der Veröffentlichung ohne die Gefahr, Opfer von „Predatory Publishing“ zu werden. Hierbei handelt es sich um ein betrügerisches Geschäftsmodell, bei dem u.a. hohe Veröffentlichungsgebühren gefordert werden und oftmals keine Qualitätskontrollen erfolgen. Mehr Information zu dem Thema erhalten Sie hier.</li>
+</ul><hr /><h2>Wie funktioniert der Login und wie bekomme ich einen Zugang?</h2><p>Angehörige der Jade Hochschule können sich mit ihrer Hochschul-Kennung über Shibboleth anmelden.</p><p>Sollte man nicht (mehr) über eine Hochschul-Kennung verfügen, kann man eine lokale Nutzerkennung für das Repositorium beantragen.</p><hr /><h2>Was mache ich, wenn ich mein Passwort für meine lokale Nutzerkennung vergessen habe? </h2><p>Senden Sie uns in diesem Fall bitte eine Mail. Wir erstellen Ihnen dann ein Übergangspasswort.</p><hr /><h2>Wie kann ich eine Publikation einreichen? </h2><p>Melden Sie sich zunächst über Shibboleth mit Ihrer Hochschulkennung oder alternativ mit Ihrer lokalen Nutzerkennung an.  </p><p>Nach erfolgreicher Anmeldung klicken Sie auf den Reiter „Publizieren“ im Hauptmenü und wählen dann den Unterpunkt „Publikation einreichen“. </p><p>Anschließend können Sie den Publikationstyp (zB. „Abschlussarbeit (Bachelor)“) festlegen. Falls Ihre Publikation schon einen Identifikator besitzt, können ggf. Metadaten importiert werden. </p><p>Durch „Weiter“ öffnet sich nun das passende Eingabeformular. Sollten Sie bei der Eingabe der Metadaten Hilfe benötigen, wenden Sie sich gerne an die Hochschulbibliothek. </p><p>Der Button „Abbrechen“ beendet den Vorgang und eingegebene Daten gehen verloren. Durch „Speichern“ werden die Metadaten gesichert und im nächsten Schritt kann die Datei hochgeladen werden.  </p><p>Nach Einreichen Ihrer Publikation, wird die Hochschulbibliothek Ihre eingegebenen Metadaten sichten, gff. anpassen und die Publikation validieren. Erst dann ist sie für alle sichtbar. </p><p>Bitte beachten Sie, dass der „Einwilligung der Veröffentlichung“ zugestimmt werden muss, damit wir Ihre Publikation veröffentlichen dürfen.</p><hr /><h2>Wie lange bleibt meine Publikation gespeichert? </h2><p>Die Hochschulbibliothek garantiert für elektronische Publikationen einen Archivierungszeitraum von mindestens fünf Jahren. Für Dokumente, die der gesetzlich geregelten Pflichtabgabe unterliegen, werden die Anforderungen an eine Langzeitarchivierung durch Ablieferung an die Deutsche Nationalbibliothek erfüllt.</p><hr /><h2>Was ist Open Access? </h2><p>Open Access bezeichnet den freien, kostenlosen und sofortigen Online-Zugang zu wissenschaftlichen Publikationen. Die Inhalte dürfen gelesen, zitiert, weiterverbreitet und oftmals auch weiterverarbeitet oder erneut veröffentlicht werden—häufig unter offenen Lizenzen wie Creative Commons, solange Autorinnen/Autoren genannt werden. Ziel ist eine breitere Verfügbarkeit, Nachnutzung und Replizierbarkeit von Forschung.</p><hr /><h2>Braucht meine Publikation eine DOI, damit ich sie hochladen kann? Wenn ja, wie und wo kann ich sie erzeugen lassen? </h2><p>Auch Publikationen, die noch nicht über dauerhafte persistente und zitierfähige Identifier (DOI) verfügen, können eingereicht werden. Die Vergabe der DOI erfolgt dann durch die Hochschulbibliothek.</p><hr /><h2>Wie funktionieren CC-Lizenzen? / Woher weiß ich, welche CC-Lizenz die Richtige für meine Publikation ist? </h2><p>Informationen zu Creative Commons Lizenzen finden Sie hier: <a href="https://de.creativecommons.net/was-ist-cc/">https://de.creativecommons.net/was-ist-cc/</a>.  Die Hochschulbibliothek empfiehlt, die CC-BY-Lizenz zu verwenden.</p><hr /><h2>In welchem Format muss die Datei hochgeladen werden? </h2><p>oktoPUS unterstützt alle Dateiformate, empfiehlt jedoch die Nutzung offener Formate, die zur langfristigen Archivierung geeignet sind und über frei zugängliche Darstellungsprogramme angezeigt werden können (z. B. PDF/A, TeX, XML). Ergänzend kann auch das Originalformat des Dokuments archiviert werden.</p><hr /><h2>Kann ich meine Publikation wieder entfernen lassen?  </h2><p>Die Rücknahme der Veröffentlichung seitens der Autor_innen ist nur unter Berufung auf § 42 UrhG (Werk entspricht nicht mehr der Überzeugung des Urhebers) möglich. </p><p>Sollten Verstöße gegen das Gesetz vorliegen, behält sich die Hochschulbibliothek das Recht vor, die Publikation eigenhändig zu entfernen. </p><p>Des Weiteren ist es nicht möglich, Änderungen an einem bereits publizierten Dokument vorzunehmen. Stattdessen würde in diesem Fall eine weitere, neue Version veröffentlicht werden.</p><hr /><h2>Können die Metadaten im Nachhinein noch bearbeitet werden? </h2><p>Wenn Ihre Metadaten erst einmal validiert wurden, können Sie selbständig keine Änderungen mehr vornehmen. Wenden Sie sich hierfür bitte an die Hochschulbibliothek.</p></section><meta><log lastEditor="dschulz" date="2026-08-07" time="14:31" /></meta></MyCoReWebPage>
